@@ -1,0 +1,338 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SkillMatrix AI | Intern Skill Gap & Industry Demand Alignment</title>
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700;800&family=Plus+Jakarta+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <!-- FontAwesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <!-- Chart.js -->
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="/static/css/style.css">
+</head>
+<body>
+    <div class="app-layout">
+        <!-- Sidebar Navigation -->
+        <aside class="sidebar">
+            <div class="sidebar-header">
+                <div class="logo-box">
+                    <i class="fa-solid fa-brain-circuit logo-icon"></i>
+                </div>
+                <div class="logo-text">
+                    <h2>SkillMatrix<span>.AI</span></h2>
+                    <p>Demand Alignment Engine</p>
+                </div>
+            </div>
+
+            <nav class="sidebar-nav">
+                <button class="nav-item active" data-tab="overview">
+                    <i class="fa-solid fa-chart-pie"></i>
+                    <span>Overview & Demands</span>
+                </button>
+                <button class="nav-item" data-tab="interns">
+                    <i class="fa-solid fa-user-graduate"></i>
+                    <span>Intern Directory</span>
+                </button>
+                <button class="nav-item" data-tab="custom-analyzer">
+                    <i class="fa-solid fa-wand-magic-sparkles"></i>
+                    <span>Live Skill Analyzer</span>
+                </button>
+                <button class="nav-item" data-tab="methodology">
+                    <i class="fa-solid fa-diagram-project"></i>
+                    <span>NLP & K-Means Pipeline</span>
+                </button>
+            </nav>
+
+            <div class="sidebar-footer">
+                <div class="badge-status">
+                    <span class="status-dot"></span>
+                    <span>TF-IDF + K-Means Active</span>
+                </div>
+                <p class="copyright">Internee.pk • Task 5</p>
+            </div>
+        </aside>
+
+        <!-- Main Content Area -->
+        <main class="main-content">
+            <!-- Top Header -->
+            <header class="top-header">
+                <div class="header-title">
+                    <h1 id="page-title">Industry Demand & Intern Cohort Overview</h1>
+                    <p id="page-subtitle">NLP-driven skill gap quantification and personalized upskilling pathways</p>
+                </div>
+                <div class="header-actions">
+                    <span class="pill-badge"><i class="fa-solid fa-layer-group"></i> 6 Clustered Domains</span>
+                    <span class="pill-badge accent"><i class="fa-solid fa-database"></i> 550 Jobs Indexed</span>
+                </div>
+            </header>
+
+            <!-- TAB 1: OVERVIEW & CLUSTERS -->
+            <section id="tab-overview" class="tab-pane active">
+                <!-- Metrics Row -->
+                <div class="metrics-grid">
+                    <div class="metric-card">
+                        <div class="metric-icon blue"><i class="fa-solid fa-users"></i></div>
+                        <div class="metric-data">
+                            <span class="metric-label">Analyzed Interns</span>
+                            <h3 class="metric-value">160</h3>
+                            <span class="metric-sub">Multi-Domain Cohort</span>
+                        </div>
+                    </div>
+                    <div class="metric-card">
+                        <div class="metric-icon purple"><i class="fa-solid fa-briefcase"></i></div>
+                        <div class="metric-data">
+                            <span class="metric-label">Industry Job Postings</span>
+                            <h3 class="metric-value">550</h3>
+                            <span class="metric-sub">NLP Corpus Parsed</span>
+                        </div>
+                    </div>
+                    <div class="metric-card">
+                        <div class="metric-icon cyan"><i class="fa-solid fa-bullseye"></i></div>
+                        <div class="metric-data">
+                            <span class="metric-label">Avg Cohort Readiness</span>
+                            <h3 class="metric-value">41.4%</h3>
+                            <span class="metric-sub">Cosine Sim: 0.367</span>
+                        </div>
+                    </div>
+                    <div class="metric-card">
+                        <div class="metric-icon green"><i class="fa-solid fa-graduation-cap"></i></div>
+                        <div class="metric-data">
+                            <span class="metric-label">Training Modules</span>
+                            <h3 class="metric-value">50+</h3>
+                            <span class="metric-sub">Curated Learning Tracks</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Visual Charts Row -->
+                <div class="grid-2col">
+                    <div class="card glass-panel">
+                        <div class="card-header">
+                            <div class="card-title">
+                                <i class="fa-solid fa-circle-nodes"></i>
+                                <h3>Industry Domain Clustering (K-Means + PCA)</h3>
+                            </div>
+                            <span class="card-tag">Silhouette: 0.2050</span>
+                        </div>
+                        <div class="chart-container" style="position: relative; height: 320px;">
+                            <canvas id="clusterScatterChart"></canvas>
+                        </div>
+                    </div>
+
+                    <div class="card glass-panel">
+                        <div class="card-header">
+                            <div class="card-title">
+                                <i class="fa-solid fa-chart-column"></i>
+                                <h3>Skill Gap Benchmark by Domain</h3>
+                            </div>
+                            <select id="domainGapSelector" class="form-select-sm">
+                                <option value="AI & Machine Learning">AI & Machine Learning</option>
+                                <option value="Data Science & Analytics">Data Science & Analytics</option>
+                                <option value="Full Stack & Web Development">Full Stack & Web Development</option>
+                                <option value="Cloud Computing & DevOps">Cloud Computing & DevOps</option>
+                                <option value="Cybersecurity & Information Security">Cybersecurity</option>
+                                <option value="Mobile Application Development">Mobile Development</option>
+                            </select>
+                        </div>
+                        <div class="chart-container" style="position: relative; height: 320px;">
+                            <canvas id="skillGapBarChart"></canvas>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Domain Clusters Grid -->
+                <div class="section-title">
+                    <i class="fa-solid fa-cubes"></i>
+                    <h2>Extracted Industry Tech Clusters</h2>
+                </div>
+                <div class="clusters-grid">
+                    {% for cid, info in clusters.items() %}
+                    <div class="cluster-card">
+                        <div class="cluster-top">
+                            <span class="cluster-badge">Cluster #{{ cid }}</span>
+                            <span class="cluster-jobs"><i class="fa-solid fa-briefcase"></i> {{ info.total_jobs }} Jobs</span>
+                        </div>
+                        <h4 class="cluster-name">{{ info.name }}</h4>
+                        <p class="cluster-roles"><strong>Key Roles:</strong> {{ info.common_titles | join(', ') }}</p>
+                        <div class="keyword-tags">
+                            {% for kw in info.top_keywords[:6] %}
+                            <span class="kw-tag">{{ kw }}</span>
+                            {% endfor %}
+                        </div>
+                    </div>
+                    {% endfor %}
+                </div>
+            </section>
+
+            <!-- TAB 2: INTERN DIRECTORY & DEEP DIVE -->
+            <section id="tab-interns" class="tab-pane">
+                <!-- Filters Bar -->
+                <div class="filter-bar glass-panel">
+                    <div class="search-input-group">
+                        <i class="fa-solid fa-magnifying-glass"></i>
+                        <input type="text" id="internSearchInput" placeholder="Search intern by name, target role, or skill...">
+                    </div>
+                    <div class="filter-group">
+                        <label><i class="fa-solid fa-filter"></i> Domain:</label>
+                        <select id="internDomainFilter" class="form-select">
+                            <option value="All">All Domains</option>
+                            {% for d in domains %}
+                            <option value="{{ d }}">{{ d }}</option>
+                            {% endfor %}
+                        </select>
+                    </div>
+                    <div class="filter-group">
+                        <label><i class="fa-solid fa-gauge-high"></i> Severity:</label>
+                        <select id="internSeverityFilter" class="form-select">
+                            <option value="All">All Levels</option>
+                            <option value="Low">Low Gap (75%+)</option>
+                            <option value="Moderate">Moderate Gap (50-74%)</option>
+                            <option value="High">High Gap (<50%)</option>
+                        </select>
+                    </div>
+                </div>
+
+                <!-- Directory Grid & Detail Split -->
+                <div class="interns-view-container">
+                    <div class="interns-list-box glass-panel">
+                        <div class="box-header">
+                            <h3>Intern Cohort (<span id="internsCount">0</span>)</h3>
+                        </div>
+                        <div class="interns-scroll-list" id="internsList">
+                            <!-- Populated via JS -->
+                        </div>
+                    </div>
+
+                    <!-- Intern Detail Pane -->
+                    <div class="intern-detail-box glass-panel" id="internDetailPane">
+                        <div class="empty-state" id="detailEmptyState">
+                            <i class="fa-regular fa-id-badge"></i>
+                            <h3>Select an intern from the list</h3>
+                            <p>View their full skill breakdown, readiness score, and tailored upskilling curriculum.</p>
+                        </div>
+
+                        <div class="detail-content" id="detailContent" style="display: none;">
+                            <!-- Populated via JS -->
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- TAB 3: CUSTOM PROFILE ANALYZER -->
+            <section id="tab-custom-analyzer" class="tab-pane">
+                <div class="grid-2col">
+                    <!-- Input Form -->
+                    <div class="card glass-panel">
+                        <div class="card-header">
+                            <div class="card-title">
+                                <i class="fa-solid fa-file-invoice"></i>
+                                <h3>Candidate Profile Input</h3>
+                            </div>
+                        </div>
+                        <form id="customAnalyzeForm">
+                            <div class="form-group">
+                                <label for="customRole">Target Role / Designation</label>
+                                <input type="text" id="customRole" class="form-input" placeholder="e.g. AI Engineer, React Developer, Data Scientist" value="Machine Learning Engineer">
+                            </div>
+                            <div class="form-group">
+                                <label for="customDomain">Target Industry Domain</label>
+                                <select id="customDomain" class="form-select">
+                                    <option value="Auto-Detect">✨ Auto-Detect via K-Means</option>
+                                    {% for d in domains %}
+                                    <option value="{{ d }}">{{ d }}</option>
+                                    {% endfor %}
+                                </select>
+                            </div>
+                            <div class="form-group">
+                                <label for="customSkills">Skills & Resume Experience Text</label>
+                                <textarea id="customSkills" class="form-textarea" rows="6" placeholder="Enter comma separated skills or raw resume summary (e.g. Python, Pandas, Matplotlib, SQL, Git, Basic Machine Learning...)">Python, Pandas, NumPy, Scikit-Learn, Git, Exploratory Data Analysis</textarea>
+                            </div>
+                            <div class="preset-skills">
+                                <span>Quick Presets:</span>
+                                <button type="button" class="preset-btn" data-preset="ds">Data Science Intern</button>
+                                <button type="button" class="preset-btn" data-preset="web">Frontend React Dev</button>
+                                <button type="button" class="preset-btn" data-preset="cloud">DevOps Beginner</button>
+                            </div>
+                            <button type="submit" class="btn btn-primary btn-block" id="btnRunAnalysis">
+                                <i class="fa-solid fa-microchip"></i> Run NLP Skill Gap Analysis
+                            </button>
+                        </form>
+                    </div>
+
+                    <!-- Realtime Results -->
+                    <div class="card glass-panel" id="customResultPane">
+                        <div class="empty-state" id="customEmptyState">
+                            <i class="fa-solid fa-chart-line"></i>
+                            <h3>Awaiting Analysis</h3>
+                            <p>Fill out the candidate profile on the left and click "Run NLP Skill Gap Analysis" to compute instant scores.</p>
+                        </div>
+                        <div id="customResultContent" style="display: none;">
+                            <!-- Populated via JS -->
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- TAB 4: METHODOLOGY & MODEL PIPELINE -->
+            <section id="tab-methodology" class="tab-pane">
+                <div class="card glass-panel">
+                    <div class="card-header">
+                        <div class="card-title">
+                            <i class="fa-solid fa-code-branch"></i>
+                            <h3>Machine Learning & NLP Architecture</h3>
+                        </div>
+                    </div>
+                    <div class="methodology-content">
+                        <div class="pipeline-steps">
+                            <div class="p-step">
+                                <div class="step-num">01</div>
+                                <h4>Corpus Ingestion & Preprocessing</h4>
+                                <p>Ingests 550 tech job postings and 160 intern profiles. Preserves compound technical terms (<code>scikit-learn</code>, <code>c++</code>, <code>ci/cd</code>, <code>deep_learning</code>), strips non-informative stopwords, and performs technical tokenization.</p>
+                            </div>
+                            <div class="p-step">
+                                <div class="step-num">02</div>
+                                <h4>TF-IDF Feature Space</h4>
+                                <p>Extracts unigrams and bigrams using sublinear term-frequency scaling. Generates high-dimensional sparse representations capturing domain-specific technical vocabulary.</p>
+                            </div>
+                            <div class="p-step">
+                                <div class="step-num">03</div>
+                                <h4>K-Means Clustering (k=6)</h4>
+                                <p>Clusters industry job postings into natural domain groupings. Computes cluster centroids and extracts top characteristic TF-IDF keywords per cluster.</p>
+                            </div>
+                            <div class="p-step">
+                                <div class="step-num">04</div>
+                                <h4>Skill Gap & Cosine Similarity</h4>
+                                <p>Transforms intern profiles into the TF-IDF space and calculates vector Cosine Similarity against domain centroids. Evaluates exact skill coverage ratios to compute an overall Readiness Score.</p>
+                            </div>
+                            <div class="p-step">
+                                <div class="step-num">05</div>
+                                <h4>Upskilling Recommendation</h4>
+                                <p>Automated mapping of missing critical skills to specialized coursework, practical capstone projects, and estimated completion timelines.</p>
+                            </div>
+                        </div>
+
+                        <div class="code-box">
+                            <div class="code-header">
+                                <span><i class="fa-brands fa-python"></i> Core Vectorization & Similarity Math</span>
+                            </div>
+                            <pre><code># Vectorization & Cosine Similarity Equation
+cos_sim = dot(V_intern, V_domain_centroid) / (||V_intern|| * ||V_domain_centroid||)
+
+# Composite Readiness Formula
+Readiness_Score = (0.40 * cos_sim) + (0.60 * (Matched_Skills / Total_Critical_Skills)) * 100</code></pre>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </main>
+    </div>
+
+    <!-- Custom JS -->
+    <script src="/static/js/app.js"></script>
+</body>
+</html>

@@ -1,0 +1,298 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Internee.pk - AI Intern Support Chatbot</title>
+  <meta name="description" content="AI-powered virtual assistant for Internee.pk interns to get instant answers to queries on tasks, submissions, deadlines, certificates, and tickets.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="app-container">
+    <!-- Sidebar Navigation -->
+    <aside class="sidebar">
+      <div class="brand">
+        <div class="brand-logo">
+          <div class="logo-circle">
+            <span class="logo-symbol">i</span>
+            <div class="pulse-dot"></div>
+          </div>
+        </div>
+        <div class="brand-text">
+          <h2>Internee<span>.pk</span></h2>
+          <p class="badge-sub">AI Support Assistant</p>
+        </div>
+      </div>
+
+      <nav class="nav-menu">
+        <button class="nav-item active" id="tab-chat-btn" onclick="switchTab('chat')">
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"/></svg>
+          <span>Live AI Chat</span>
+        </button>
+        <button class="nav-item" id="tab-faqs-btn" onclick="switchTab('faqs')">
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 19.5v-15A2.5 2.5 0 0 1 6.5 2H20v20H6.5a2.5 2.5 0 0 1-2.5-2.5Z"/><path d="M6 6h10M6 10h10"/></svg>
+          <span>Knowledge Base</span>
+        </button>
+        <button class="nav-item" id="tab-tickets-btn" onclick="switchTab('tickets')">
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect width="18" height="18" x="3" y="3" rx="2"/><path d="m9 12 2 2 4-4"/></svg>
+          <span>Support Tickets</span>
+          <span class="counter-badge" id="active-ticket-count">0</span>
+        </button>
+        <button class="nav-item" id="tab-analytics-btn" onclick="switchTab('analytics')">
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M3 3v18h18"/><path d="m19 9-5 5-4-4-3 3"/></svg>
+          <span>Coordinator Hub</span>
+        </button>
+      </nav>
+
+      <div class="sidebar-status">
+        <div class="status-indicator online"></div>
+        <div class="status-info">
+          <span class="status-label">NLP Model Online</span>
+          <span class="status-meta">v1.2 Hybrid Semantic</span>
+        </div>
+      </div>
+    </aside>
+
+    <!-- Main Content Area -->
+    <main class="main-content">
+      <!-- Top Navigation Bar -->
+      <header class="top-header">
+        <div class="header-left">
+          <h1 id="page-title">Intern Query & Support AI</h1>
+          <p id="page-subtitle">Instant 24/7 intelligent answers for tasks, portal, submissions & certificates</p>
+        </div>
+        <div class="header-actions">
+          <div class="user-chip">
+            <div class="avatar">👨‍💻</div>
+            <div class="intern-details">
+              <span class="name" id="user-name-display">Active Intern</span>
+              <span class="role">Batch #06 • AI Track</span>
+            </div>
+          </div>
+          <button class="btn btn-outline" id="escalate-header-btn" onclick="openTicketModal()">
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 5v14M5 12h14"/></svg>
+            Create Ticket
+          </button>
+        </div>
+      </header>
+
+      <!-- VIEW 1: Chat Tab -->
+      <section id="view-chat" class="tab-view active">
+        <div class="chat-wrapper">
+          <div class="chat-messages" id="chat-messages">
+            <!-- Bot Welcome Message -->
+            <div class="message-row bot">
+              <div class="bot-avatar">🤖</div>
+              <div class="message-bubble">
+                <div class="bubble-header">
+                  <span class="author">Internee.pk Bot</span>
+                  <span class="badge confidence-pill">AI Assistant</span>
+                </div>
+                <div class="bubble-content">
+                  <p>Welcome to <strong>Internee.pk Support</strong>! 👋</p>
+                  <p>I am your dedicated AI assistant, trained on our official internship guidelines, task rubrics, and historical mentor tickets. Ask me anything about:</p>
+                  <ul>
+                    <li>Submitting weekly assignments and GitHub requirements</li>
+                    <li>Certificate eligibility and verification links</li>
+                    <li>LMS portal login or 403 access issues</li>
+                    <li>Extension requests and university exam freeze policies</li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Quick Suggestion Chips -->
+          <div class="quick-suggestions-bar">
+            <span class="suggestions-label">💡 Common Queries:</span>
+            <div class="chips-slider" id="chips-container">
+              <!-- Dynamically populated or default chips -->
+            </div>
+          </div>
+
+          <!-- Chat Input Area -->
+          <div class="chat-input-area">
+            <form id="chat-form" onsubmit="handleSendMessage(event)">
+              <div class="input-glass-box">
+                <input 
+                  type="text" 
+                  id="query-input" 
+                  placeholder="Ask a question about your tasks, certificates, deadlines..." 
+                  autocomplete="off"
+                  required
+                />
+                <button type="submit" id="send-btn" class="send-button" title="Send Query">
+                  <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="m22 2-7 20-4-9-9-4Z"/><path d="M22 2 11 13"/></svg>
+                </button>
+              </div>
+            </form>
+          </div>
+        </div>
+      </section>
+
+      <!-- VIEW 2: FAQ Knowledge Base Tab -->
+      <section id="view-faqs" class="tab-view">
+        <div class="faqs-container">
+          <div class="section-toolbar">
+            <div class="search-box">
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="11" cy="11" r="8"/><path d="m21 21-4.3-4.3"/></svg>
+              <input type="text" id="faq-search" placeholder="Search official guidelines..." onkeyup="filterFAQs()">
+            </div>
+            <div class="filter-pills" id="faq-category-filters">
+              <!-- Category pills dynamically injected -->
+            </div>
+          </div>
+
+          <div class="faq-cards-grid" id="faq-cards-grid">
+            <!-- Dynamically populated -->
+          </div>
+        </div>
+      </section>
+
+      <!-- VIEW 3: Support Tickets Tab -->
+      <section id="view-tickets" class="tab-view">
+        <div class="tickets-container">
+          <div class="section-toolbar">
+            <div class="tickets-summary-row">
+              <div class="stat-card">
+                <span class="stat-num" id="stat-total-tck">0</span>
+                <span class="stat-lbl">Total Tickets</span>
+              </div>
+              <div class="stat-card open">
+                <span class="stat-num" id="stat-open-tck">0</span>
+                <span class="stat-lbl">Open</span>
+              </div>
+              <div class="stat-card resolved">
+                <span class="stat-num" id="stat-res-tck">0</span>
+                <span class="stat-lbl">Resolved</span>
+              </div>
+            </div>
+            <button class="btn btn-primary" onclick="openTicketModal()">+ New Support Ticket</button>
+          </div>
+
+          <div class="tickets-table-card">
+            <table class="styled-table">
+              <thead>
+                <tr>
+                  <th>Ticket ID</th>
+                  <th>Category</th>
+                  <th>Intern Query</th>
+                  <th>Priority</th>
+                  <th>Status</th>
+                  <th>Action</th>
+                </tr>
+              </thead>
+              <tbody id="tickets-table-body">
+                <!-- Dynamically loaded -->
+              </tbody>
+            </table>
+          </div>
+        </div>
+      </section>
+
+      <!-- VIEW 4: Coordinator Analytics Tab -->
+      <section id="view-analytics" class="tab-view">
+        <div class="analytics-container">
+          <div class="metrics-grid">
+            <div class="metric-box">
+              <div class="metric-icon green">⚡</div>
+              <div class="metric-data">
+                <span class="val" id="metric-auto-rate">94.2%</span>
+                <span class="lbl">Automated AI Resolution Rate</span>
+              </div>
+            </div>
+            <div class="metric-box">
+              <div class="metric-icon blue">💬</div>
+              <div class="metric-data">
+                <span class="val" id="metric-queries-count">0</span>
+                <span class="lbl">Total Session Queries</span>
+              </div>
+            </div>
+            <div class="metric-box">
+              <div class="metric-icon purple">🎯</div>
+              <div class="metric-data">
+                <span class="val">14 FAQs + 8 Tickets</span>
+                <span class="lbl">Active Knowledge Corpus</span>
+              </div>
+            </div>
+            <div class="metric-box">
+              <div class="metric-icon orange">⏱️</div>
+              <div class="metric-data">
+                <span class="val">&lt; 150 ms</span>
+                <span class="lbl">Avg Response Time</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="analytics-split">
+            <div class="card panel">
+              <h3>Live Query Activity Feed</h3>
+              <div class="activity-feed" id="live-query-feed">
+                <p class="empty-state">No user queries recorded yet this session.</p>
+              </div>
+            </div>
+            <div class="card panel">
+              <h3>Support Topics Breakdown</h3>
+              <div class="topic-bars" id="topic-bars">
+                <!-- Dynamically loaded -->
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+  </div>
+
+  <!-- Modal: Create Support Ticket -->
+  <div class="modal-overlay" id="ticket-modal">
+    <div class="modal-box">
+      <div class="modal-header">
+        <h3>Create Support Ticket</h3>
+        <button class="close-btn" onclick="closeTicketModal()">&times;</button>
+      </div>
+      <form id="create-ticket-form" onsubmit="handleTicketSubmit(event)">
+        <div class="form-group">
+          <label for="modal-intern-name">Intern Name</label>
+          <input type="text" id="modal-intern-name" value="Muhammad Hamza" required>
+        </div>
+        <div class="form-group">
+          <label for="modal-intern-email">Registered Email</label>
+          <input type="email" id="modal-intern-email" value="intern.student@internee.pk" required>
+        </div>
+        <div class="form-group">
+          <label for="modal-category">Query Category</label>
+          <select id="modal-category">
+            <option value="Task Submission">Task Submission & GitHub</option>
+            <option value="Certificates & Verification">Certificates & Verification</option>
+            <option value="Account & Portal">Account & LMS Portal</option>
+            <option value="Mentorship & Community">Mentorship & Community</option>
+            <option value="Technical Setup">Technical Setup & Environment</option>
+            <option value="General Policies">General Policies & Exam Leaves</option>
+          </select>
+        </div>
+        <div class="form-group">
+          <label for="modal-priority">Priority</label>
+          <select id="modal-priority">
+            <option value="Medium">Medium Priority</option>
+            <option value="High">High Priority (Urgent Deadline)</option>
+            <option value="Low">Low Priority (General Feedback)</option>
+          </select>
+        </div>
+        <div class="form-group">
+          <label for="modal-query">Detailed Query / Issue Description</label>
+          <textarea id="modal-query" rows="4" placeholder="Describe the difficulty you're experiencing..." required></textarea>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" onclick="closeTicketModal()">Cancel</button>
+          <button type="submit" class="btn btn-primary">Submit Ticket</button>
+        </div>
+      </form>
+    </div>
+  </div>
+
+  <script src="app.js"></script>
+</body>
+</html>

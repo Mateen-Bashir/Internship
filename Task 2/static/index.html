@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Intern Satisfaction Engine</title>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="blob-1"></div>
+    <div class="blob-2"></div>
+
+    <main class="glass-card">
+        <header>
+            <h1>Feedback <span class="glow-text">Analyzer</span></h1>
+            <p>Determine positive or negative sentiment instantly.</p>
+        </header>
+
+        <section class="input-section">
+            <textarea id="feedback-input"
+                placeholder="Type intern feedback here... (e.g., 'The onboarding process was confusing but the team is great')"></textarea>
+
+            <div class="controls">
+                <div class="select-wrapper">
+                    <select id="model-select">
+                        <option value="logistic">Model: Logistic Regression (Fast)</option>
+                        <option value="transformer">Model: DistilBERT Pipeline</option>
+                    </select>
+                </div>
+                <button id="analyze-btn" class="primary-btn">Compute AI Sentiment</button>
+            </div>
+        </section>
+
+        <section class="result-section hidden" id="result-container">
+            <div class="spinner-container hidden" id="spinner-box">
+                <div class="spinner"></div>
+                <p>Analyzing context...</p>
+            </div>
+
+            <div id="result-content" class="hidden result-box">
+                <div class="sentiment-indicator" id="sentiment-indicator"></div>
+                <h2 id="sentiment-output">Positive</h2>
+                <p id="model-output">Model used: Logistic</p>
+            </div>
+        </section>
+
+        <section class="insights-section hidden" id="insights-container">
+            <h3>Dynamic Insights</h3>
+            <p id="insights-subtitle">Model flagged these specific concepts from your text:</p>
+            <div class="insights-list" id="insights-tags"></div>
+        </section>
+    </main>
+    <script src="script.js"></script>
+</body>
+
+</html>

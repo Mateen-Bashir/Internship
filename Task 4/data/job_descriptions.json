@@ -1,0 +1,289 @@
+[
+  {
+    "id": "JD-AI-01",
+    "title": "Machine Learning & AI Engineering Intern",
+    "track": "AI & Machine Learning",
+    "department": "Applied AI Research & Engineering",
+    "experience_level": "Intern / Entry Level",
+    "location": "Hybrid / On-site",
+    "duration": "3 - 6 Months",
+    "overview": "We are seeking a high-caliber ML Intern to join our AI team. You will build, fine-tune, and evaluate deep learning models, deploy RAG pipelines, and integrate state-of-the-art vision/NLP architectures into production microservices.",
+    "required_skills": [
+      "Python",
+      "PyTorch",
+      "Scikit-Learn",
+      "FastAPI",
+      "Pandas",
+      "NumPy",
+      "Git"
+    ],
+    "preferred_skills": [
+      "Transformers",
+      "LangChain",
+      "Vector DBs",
+      "Docker",
+      "MLOps",
+      "OpenCV"
+    ],
+    "responsibilities": [
+      "Develop and benchmark machine learning models on structured and unstructured datasets.",
+      "Implement retrieval-augmented generation (RAG) pipelines for enterprise knowledge search.",
+      "Optimize model inference latency and package models inside Docker containers.",
+      "Collaborate with backend engineers to integrate RESTful AI inference endpoints."
+    ],
+    "competency_focus": [
+      "Problem Solving & Technical Agility",
+      "Learning Agility & Curiosity",
+      "Ownership & Time Management"
+    ]
+  },
+  {
+    "id": "JD-FS-02",
+    "title": "Full-Stack Web Development Intern (React + Node / Python)",
+    "track": "Full-Stack Web Development",
+    "department": "Platform Engineering",
+    "experience_level": "Intern / Entry Level",
+    "location": "Remote / Hybrid",
+    "duration": "3 Months",
+    "overview": "Join our fast-paced product engineering team to build scalable, responsive web applications. You will contribute to frontend React/Next.js interfaces, RESTful microservices, and database optimizations.",
+    "required_skills": [
+      "JavaScript",
+      "TypeScript",
+      "React.js",
+      "Node.js",
+      "PostgreSQL",
+      "REST APIs",
+      "Git"
+    ],
+    "preferred_skills": [
+      "Next.js",
+      "Docker",
+      "Redis",
+      "TailwindCSS",
+      "Prisma ORM",
+      "GraphQL"
+    ],
+    "responsibilities": [
+      "Build reusable, accessible, and responsive UI components using React and modern CSS.",
+      "Develop and maintain robust backend API endpoints with data validation and authentication.",
+      "Design normalized relational database schemas and optimize SQL query performance.",
+      "Write automated unit and integration tests to ensure high code quality."
+    ],
+    "competency_focus": [
+      "Collaboration & Team Communication",
+      "Ownership & Time Management",
+      "Adaptability & Resilience"
+    ]
+  },
+  {
+    "id": "JD-DS-03",
+    "title": "Data Science & Analytics Intern",
+    "track": "Data Science & Analytics",
+    "department": "Business Intelligence & Data Insights",
+    "experience_level": "Intern / Entry Level",
+    "location": "On-site / Hybrid",
+    "duration": "3 - 6 Months",
+    "overview": "Looking for an analytical Data Science Intern to uncover actionable patterns from large-scale user datasets, build predictive churn/retention models, and create executive dashboards.",
+    "required_skills": [
+      "Python",
+      "SQL",
+      "Pandas",
+      "Scikit-Learn",
+      "Statistical Modeling",
+      "Data Visualization"
+    ],
+    "preferred_skills": [
+      "Tableau",
+      "PowerBI",
+      "A/B Testing",
+      "BigQuery",
+      "XGBoost",
+      "dbt"
+    ],
+    "responsibilities": [
+      "Extract, clean, and transform multi-source data using SQL and Pandas.",
+      "Perform exploratory data analysis (EDA) and formulate testable statistical hypotheses.",
+      "Build baseline machine learning models to forecast business KPIs and user behavior.",
+      "Design intuitive visual dashboards in Tableau/PowerBI for cross-functional stakeholders."
+    ],
+    "competency_focus": [
+      "Problem Solving & Technical Agility",
+      "Collaboration & Team Communication"
+    ]
+  },
+  {
+    "id": "JD-DO-04",
+    "title": "Cloud & DevOps Engineering Intern",
+    "track": "Cloud & DevOps Engineering",
+    "department": "Infrastructure & Reliability",
+    "experience_level": "Intern / Entry Level",
+    "location": "Remote",
+    "duration": "3 - 6 Months",
+    "overview": "Accelerate our engineering velocity by automating CI/CD delivery pipelines, managing containerized Kubernetes clusters, and codifying cloud infrastructure using Terraform.",
+    "required_skills": [
+      "Linux",
+      "Docker",
+      "Bash Scripting",
+      "Git",
+      "CI/CD Pipelines",
+      "Networking Fundamentals"
+    ],
+    "preferred_skills": [
+      "Kubernetes",
+      "AWS (EC2, S3, IAM)",
+      "Terraform",
+      "Prometheus",
+      "Helm",
+      "GitHub Actions"
+    ],
+    "responsibilities": [
+      "Maintain and optimize automated GitHub Actions CI/CD workflows.",
+      "Containerize microservices and write hardened multi-stage Dockerfiles.",
+      "Assist in monitoring cluster health, uptime, and alerting configurations.",
+      "Write Infrastructure as Code (IaC) templates for automated environment provisioning."
+    ],
+    "competency_focus": [
+      "Adaptability & Resilience",
+      "Problem Solving & Technical Agility",
+      "Ownership & Time Management"
+    ]
+  },
+  {
+    "id": "JD-BE-05",
+    "title": "Backend Engineering Intern (FastAPI / Spring Boot / Go)",
+    "track": "Backend Engineering (Python / Java / Go)",
+    "department": "Core Systems & APIs",
+    "experience_level": "Intern / Entry Level",
+    "location": "Hybrid",
+    "duration": "3 Months",
+    "overview": "Build high-concurrency, fault-tolerant backend services that power our core platform. You will handle database transactions, message queues, and API gateways.",
+    "required_skills": [
+      "Python",
+      "PostgreSQL",
+      "REST APIs",
+      "Docker",
+      "Git",
+      "Data Structures"
+    ],
+    "preferred_skills": [
+      "Redis",
+      "FastAPI",
+      "Kafka",
+      "Pytest",
+      "gRPC"
+    ],
+    "responsibilities": [
+      "Design and document secure, high-throughput REST and gRPC API endpoints.",
+      "Implement asynchronous task processing and background worker queues.",
+      "Optimize database queries, connection pooling, and multi-level caching.",
+      "Conduct code reviews and follow strict test-driven development methodologies."
+    ],
+    "competency_focus": [
+      "Problem Solving & Technical Agility",
+      "Ownership & Time Management"
+    ]
+  },
+  {
+    "id": "JD-FE-06",
+    "title": "Frontend Engineering Intern (React / Next.js / Vue)",
+    "track": "Frontend Engineering (React / Next.js / Vue)",
+    "department": "User Experience & Web Applications",
+    "experience_level": "Intern / Entry Level",
+    "location": "Remote / Hybrid",
+    "duration": "3 Months",
+    "overview": "Craft delightful, lightning-fast user interfaces. You will translate Figma wireframes into pixel-perfect, accessible, and performant web applications.",
+    "required_skills": [
+      "JavaScript",
+      "TypeScript",
+      "React.js",
+      "HTML5/CSS3",
+      "Responsive Design",
+      "Git"
+    ],
+    "preferred_skills": [
+      "Next.js",
+      "Tailwind CSS",
+      "Redux",
+      "Web Vitals Optimization",
+      "Storybook"
+    ],
+    "responsibilities": [
+      "Build stateful frontend components with responsive layout across all device screens.",
+      "Optimize Core Web Vitals (LCP, CLS, INP) for peak rendering performance.",
+      "Integrate with backend GraphQL and REST APIs with graceful error handling.",
+      "Ensure WCAG 2.1 AA accessibility compliance across all UI components."
+    ],
+    "competency_focus": [
+      "Collaboration & Team Communication",
+      "Learning Agility & Curiosity"
+    ]
+  },
+  {
+    "id": "JD-CY-07",
+    "title": "Cybersecurity & Information Security Intern",
+    "track": "Cybersecurity & Information Assurance",
+    "department": "InfoSec & Compliance",
+    "experience_level": "Intern / Entry Level",
+    "location": "On-site",
+    "duration": "3 - 6 Months",
+    "overview": "Protect mission-critical infrastructure against emerging vulnerabilities. You will perform vulnerability scans, code audits, network traffic analysis, and assist in incident response.",
+    "required_skills": [
+      "Linux",
+      "Network Security",
+      "OWASP Top 10",
+      "Python Scripting",
+      "Wireshark"
+    ],
+    "preferred_skills": [
+      "Burp Suite",
+      "SAST / DAST",
+      "SOC Alerting",
+      "Metasploit",
+      "Cryptography"
+    ],
+    "responsibilities": [
+      "Execute automated and manual vulnerability assessments across web applications.",
+      "Analyze network packets and security logs for anomalous threat behavior.",
+      "Assist software engineers in remediating identified security vulnerabilities.",
+      "Draft security incident documentation and employee awareness guidelines."
+    ],
+    "competency_focus": [
+      "Problem Solving & Technical Agility",
+      "Adaptability & Resilience"
+    ]
+  },
+  {
+    "id": "JD-MO-08",
+    "title": "Mobile App Development Intern (Flutter / Kotlin / Swift)",
+    "track": "Mobile App Development (Flutter / Android / iOS)",
+    "department": "Consumer Mobile Apps",
+    "experience_level": "Intern / Entry Level",
+    "location": "Hybrid",
+    "duration": "3 Months",
+    "overview": "Build intuitive, smooth mobile applications used by thousands of daily active users. You will write clean mobile code, implement state management, and integrate native device APIs.",
+    "required_skills": [
+      "Flutter",
+      "Dart",
+      "Mobile UI Design",
+      "REST APIs",
+      "Git",
+      "SQLite"
+    ],
+    "preferred_skills": [
+      "Bloc",
+      "Firebase",
+      "Push Notifications",
+      "App Store Deployment"
+    ],
+    "responsibilities": [
+      "Develop fluid mobile screens and animations adhering to Material Design / iOS Human Interface Guidelines.",
+      "Implement offline-first data caching and robust synchronization mechanisms.",
+      "Diagnose and fix mobile memory leaks, frame drops, and battery drain issues.",
+      "Collaborate with backend engineers to integrate push notifications and real-time sockets."
+    ],
+    "competency_focus": [
+      "Learning Agility & Curiosity",
+      "Collaboration & Team Communication"
+    ]
+  }
+]

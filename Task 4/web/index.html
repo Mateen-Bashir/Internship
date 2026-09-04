@@ -1,0 +1,326 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI Interview Question Generator | Internee.pk Task 4</title>
+    <meta name="description" content="Automated role-specific technical and behavioral interview question generator tailored for intern candidates and job specifications.">
+    <!-- Google Fonts: Inter -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/static/app.css">
+</head>
+<body>
+
+    <!-- Header -->
+    <header>
+        <div class="header-container">
+            <div class="logo-group">
+                <div class="logo-icon">⚡</div>
+                <div class="logo-text">
+                    <h1>Internee.pk Interview Studio</h1>
+                    <span>Task 4: AI Text Generation Engine</span>
+                </div>
+            </div>
+            <div class="stats-pills">
+                <div class="stat-pill">📚 Bank: <strong id="stat-q-count">989+</strong> Qs</div>
+                <div class="stat-pill">🧑‍🎓 Resumes: <strong id="stat-p-count">60</strong> Profiles</div>
+                <div class="stat-pill">💼 Roles: <strong id="stat-j-count">8</strong> Tracks</div>
+                <div class="stat-pill" style="border-color: var(--accent-emerald); color: var(--accent-emerald);">● Online</div>
+            </div>
+        </div>
+    </header>
+
+    <!-- Navigation Tabs -->
+    <nav class="nav-tabs">
+        <button class="tab-btn active" onclick="switchTab('studio')">
+            <span>🎯</span> Interview Kit Studio
+        </button>
+        <button class="tab-btn" onclick="switchTab('mock')">
+            <span>🎙️</span> Mock Interview & AI Grader
+        </button>
+        <button class="tab-btn" onclick="switchTab('benchmarks')">
+            <span>📊</span> NLP Quality Benchmark & Explorer
+        </button>
+    </nav>
+
+    <!-- Main Content -->
+    <main>
+        <!-- TAB 1: STUDIO -->
+        <section id="tab-studio" class="tab-pane active">
+            <div class="grid-2">
+                <!-- Left Panel: Input & Gap Analysis -->
+                <div>
+                    <!-- Step 1: Candidate & Role Selection -->
+                    <div class="card">
+                        <div class="card-title">
+                            <span>1. Select Profile & Role</span>
+                            <span class="badge badge-easy">Input Setup</span>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="select-profile">Intern Candidate Profile</label>
+                            <select id="select-profile" onchange="onProfileChange()">
+                                <!-- Dynamically Populated -->
+                            </select>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="select-job">Target Job Description</label>
+                            <select id="select-job" onchange="onJobChange()">
+                                <!-- Dynamically Populated -->
+                            </select>
+                        </div>
+
+                        <div style="font-size: 0.8rem; color: var(--text-muted); margin-bottom: 0.75rem;" id="cand-summary-preview">
+                            Loading profile details...
+                        </div>
+                    </div>
+
+                    <!-- Step 2: Live Gap Analysis & Radar Fit -->
+                    <div class="card">
+                        <div class="card-title">
+                            <span>2. Candidate-Job Fit & Gap Analysis</span>
+                            <span class="badge" id="gap-badge" style="background: rgba(99,102,241,0.2); color: #818cf8;">Analyzing</span>
+                        </div>
+
+                        <div class="fit-score-box">
+                            <div>
+                                <div style="font-size: 0.8rem; text-transform: uppercase; color: var(--text-secondary); font-weight: 600;">Overall Match Fit</div>
+                                <div style="font-size: 0.75rem; color: var(--text-muted);" id="fit-label">Composite Fit</div>
+                            </div>
+                            <div class="fit-score-val" id="fit-score-val">--%</div>
+                        </div>
+
+                        <!-- Canvas Radar Chart -->
+                        <div class="radar-container">
+                            <canvas id="radarChart" width="300" height="230"></canvas>
+                        </div>
+
+                        <div style="margin-bottom: 0.75rem;">
+                            <label style="margin-bottom: 0.2rem;">Matched Core Skills:</label>
+                            <div class="tag-list" id="matched-skills-tags"></div>
+                        </div>
+
+                        <div style="margin-bottom: 0.75rem;">
+                            <label style="margin-bottom: 0.2rem;">Missing Skills to Probe (Gaps):</label>
+                            <div class="tag-list" id="missing-skills-tags"></div>
+                        </div>
+
+                        <div>
+                            <label style="margin-bottom: 0.2rem;">Strategy Recommendations:</label>
+                            <ul id="strategy-recommendations" style="font-size: 0.85rem; color: var(--text-secondary); padding-left: 1.2rem; line-height: 1.5;">
+                            </ul>
+                        </div>
+                    </div>
+
+                    <!-- Step 3: Engine & Parameters -->
+                    <div class="card">
+                        <div class="card-title">
+                            <span>3. Generation Engine Settings</span>
+                            <span class="badge badge-medium">Model Config</span>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="select-backend">Text Generation Backend</label>
+                            <select id="select-backend" onchange="onBackendChange()">
+                                <option value="rag_neural">Neural RAG Synthesizer (Built-in Local - Recommended)</option>
+                                <option value="openai">OpenAI GPT-4o / GPT-3.5 API</option>
+                                <option value="groq">Groq Cloud (LLaMA-3.1 Fast)</option>
+                                <option value="custom_api">Custom OpenAI-Compatible API</option>
+                            </select>
+                        </div>
+
+                        <div id="api-key-group" class="form-group" style="display: none;">
+                            <label for="input-api-key">API Key</label>
+                            <input type="password" id="input-api-key" placeholder="Enter sk-... API key">
+                        </div>
+
+                        <div style="display: grid; grid-template-columns: 1fr 1fr 1fr; gap: 0.75rem; margin-bottom: 1.25rem;">
+                            <div>
+                                <label for="num-tech" style="font-size: 0.7rem;">Tech Qs</label>
+                                <input type="number" id="num-tech" value="5" min="2" max="10">
+                            </div>
+                            <div>
+                                <label for="num-beh" style="font-size: 0.7rem;">STAR Qs</label>
+                                <input type="number" id="num-beh" value="3" min="1" max="6">
+                            </div>
+                            <div>
+                                <label for="num-proj" style="font-size: 0.7rem;">Project Qs</label>
+                                <input type="number" id="num-proj" value="2" min="1" max="4">
+                            </div>
+                        </div>
+
+                        <button id="btn-generate" class="btn btn-primary" style="width: 100%;" onclick="generateInterviewKit()">
+                            <span>⚡</span> Generate Tailored Interview Kit
+                        </button>
+                    </div>
+                </div>
+
+                <!-- Right Panel: Generated Interview Kit Output -->
+                <div>
+                    <div class="card" style="min-height: 800px;">
+                        <div class="card-title">
+                            <div>
+                                <span>📋 Tailored Interview Question Kit</span>
+                                <div style="font-size: 0.8rem; font-weight: normal; color: var(--text-muted);" id="kit-meta-desc">
+                                    Click "Generate Tailored Interview Kit" to produce role-calibrated questions.
+                                </div>
+                            </div>
+                            <!-- Export Actions -->
+                            <div style="display: flex; gap: 0.4rem;" id="export-btn-group">
+                                <button class="btn btn-secondary btn-sm" onclick="exportKit('markdown')">📄 Markdown</button>
+                                <button class="btn btn-secondary btn-sm" onclick="exportKit('html')">📥 Print / PDF</button>
+                                <button class="btn btn-secondary btn-sm" onclick="exportKit('json')">💾 JSON</button>
+                            </div>
+                        </div>
+
+                        <!-- Kit Content Area -->
+                        <div id="kit-content-container">
+                            <div style="text-align: center; padding: 4rem 1rem; color: var(--text-muted);">
+                                <div style="font-size: 3rem; margin-bottom: 1rem;">🎯</div>
+                                <h3>No Question Kit Generated Yet</h3>
+                                <p style="max-width: 450px; margin: 0.5rem auto 1.5rem; font-size: 0.9rem;">
+                                    Select an intern profile and job description on the left, then click <strong>Generate Tailored Interview Kit</strong>.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- TAB 2: MOCK INTERVIEW & AI GRADER -->
+        <section id="tab-mock" class="tab-pane">
+            <div class="grid-2">
+                <!-- Left: Question Selector & Candidate Input -->
+                <div>
+                    <div class="card">
+                        <div class="card-title">
+                            <span>1. Question Under Evaluation</span>
+                            <span class="badge badge-medium">Interactive Test</span>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="mock-question-select">Select Question to Practice / Grade</label>
+                            <select id="mock-question-select" onchange="onMockQuestionChange()">
+                                <!-- Dynamically Populated from Kit / Bank -->
+                            </select>
+                        </div>
+
+                        <div class="q-text" id="mock-question-display">
+                            Select or generate a question above.
+                        </div>
+
+                        <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 0.5rem;">
+                            <label style="margin: 0;">Candidate Response</label>
+                            <button class="btn btn-secondary btn-sm" onclick="loadSampleAnswer()">✨ Load Sample Answer</button>
+                        </div>
+
+                        <textarea id="mock-candidate-response" rows="8" placeholder="Type or paste the candidate's technical or STAR behavioral answer here..."></textarea>
+
+                        <button class="btn btn-primary" style="width: 100%; margin-top: 1rem;" onclick="gradeCandidateResponse()">
+                            <span>🤖</span> Grade Answer & Generate Rubric Feedback
+                        </button>
+                    </div>
+                </div>
+
+                <!-- Right: Instant Feedback & Scorecard -->
+                <div>
+                    <div class="card">
+                        <div class="card-title">
+                            <span>2. Real-Time AI Score & Rubric Breakdown</span>
+                            <span class="badge" id="grade-status-badge">Waiting for Answer</span>
+                        </div>
+
+                        <div id="grade-result-container">
+                            <div style="text-align: center; padding: 4rem 1rem; color: var(--text-muted);">
+                                <div style="font-size: 3rem; margin-bottom: 1rem;">🎙️</div>
+                                <h3>Ready to Evaluate</h3>
+                                <p style="font-size: 0.9rem;">Type an answer on the left and click "Grade Answer".</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- TAB 3: BENCHMARKS & EXPLORER -->
+        <section id="tab-benchmarks" class="tab-pane">
+            <!-- Benchmark Analytics Cards -->
+            <div class="card">
+                <div class="card-title">
+                    <span>⚡ Generation Quality & NLP Benchmark Evaluation</span>
+                    <span class="badge badge-easy" id="bench-status-badge">Model Benchmark</span>
+                </div>
+
+                <div class="benchmark-metrics-grid">
+                    <div class="metric-card">
+                        <div class="lbl">Composite Quality Index (CQI)</div>
+                        <div class="val" id="m-cqi" style="color: var(--accent-cyan);">94.8%</div>
+                    </div>
+                    <div class="metric-card">
+                        <div class="lbl">Skill Coverage Index</div>
+                        <div class="val" id="m-coverage" style="color: var(--accent-emerald);">92.0%</div>
+                    </div>
+                    <div class="metric-card">
+                        <div class="lbl">Difficulty Calibration</div>
+                        <div class="val" id="m-diff" style="color: var(--accent-amber);">100%</div>
+                    </div>
+                    <div class="metric-card">
+                        <div class="lbl">STAR Completeness</div>
+                        <div class="val" id="m-star" style="color: var(--accent-violet);">100%</div>
+                    </div>
+                    <div class="metric-card">
+                        <div class="lbl">Lexical Diversity (Dist-2)</div>
+                        <div class="val" id="m-dist2" style="color: #38bdf8;">0.842</div>
+                    </div>
+                    <div class="metric-card">
+                        <div class="lbl">Candidate Personalization</div>
+                        <div class="val" id="m-pers" style="color: var(--accent-emerald);">90.0%</div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Question Bank Explorer -->
+            <div class="card">
+                <div class="card-title">
+                    <span>📚 Comprehensive Question Bank Explorer (989+ Items)</span>
+                    <span class="badge badge-medium">Direct Search</span>
+                </div>
+
+                <div style="display: grid; grid-template-columns: 1fr 1fr 1fr; gap: 1rem; margin-bottom: 1rem;">
+                    <div>
+                        <label for="filter-track">Track Filter</label>
+                        <select id="filter-track" onchange="searchQuestionBank()">
+                            <option value="">All Tracks</option>
+                        </select>
+                    </div>
+                    <div>
+                        <label for="filter-difficulty">Difficulty</label>
+                        <select id="filter-difficulty" onchange="searchQuestionBank()">
+                            <option value="">All Difficulties</option>
+                            <option value="Easy">Easy</option>
+                            <option value="Medium">Medium</option>
+                            <option value="Hard">Hard</option>
+                        </select>
+                    </div>
+                    <div>
+                        <label for="filter-search">Keyword Search</label>
+                        <input type="text" id="filter-search" placeholder="e.g. PyTorch, React, Docker..." oninput="searchQuestionBank()">
+                    </div>
+                </div>
+
+                <div id="bank-search-results" style="max-height: 500px; overflow-y: auto; padding-right: 0.5rem;">
+                    <!-- Question Cards Populated -->
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <div id="toast">Notification</div>
+
+    <script src="/static/app.js"></script>
+</body>
+</html>

@@ -1,0 +1,256 @@
+{
+  "interview_meta": {
+    "candidate_name": "Zubair Sheikh",
+    "university": "National University of Sciences & Technology (NUST)",
+    "degree": "BS Artificial Intelligence",
+    "target_role": "Machine Learning & AI Engineering Intern",
+    "track": "AI & Machine Learning",
+    "fit_score": 60.3,
+    "generation_backend": "Neural RAG Synthesizer (Local High-Fidelity)"
+  },
+  "gap_analysis": {
+    "overall_fit_score": 60.3,
+    "required_match_pct": 57.1,
+    "preferred_match_pct": 50.0,
+    "matched_required_skills": [
+      "Python",
+      "PyTorch",
+      "NumPy",
+      "Git"
+    ],
+    "missing_required_skills": [
+      "Scikit-Learn",
+      "FastAPI",
+      "Pandas"
+    ],
+    "matched_preferred_skills": [
+      "LangChain",
+      "Vector DBs",
+      "Docker"
+    ],
+    "missing_preferred_skills": [
+      "Transformers",
+      "MLOps",
+      "OpenCV"
+    ],
+    "surplus_skills": [
+      "RNNs",
+      "CNNs",
+      "Deep Learning",
+      "Gymnasium",
+      "HuggingFace",
+      "Matplotlib",
+      "Problem Solving"
+    ],
+    "radar_dimensions": {
+      "Core Technical Match": 57.1,
+      "Preferred Tooling": 50.0,
+      "Track Alignment": 100,
+      "Project Relevance": 45,
+      "Academic / Foundational": 83
+    },
+    "recommendations": [
+      "Validate hands-on depth in core strengths: Python, PyTorch, NumPy.",
+      "Probe foundational learning agility regarding missing required skills: Scikit-Learn, FastAPI, Pandas.",
+      "Conduct deep-dive on flagship project: 'Real-time Autonomous Drone Navigation Simulator'.",
+      "Inquire how candidate's unique skills (RNNs, CNNs) can add cross-disciplinary value."
+    ]
+  },
+  "technical_questions": [
+    {
+      "id": "TECH-01",
+      "category": "Technical",
+      "topic": "Convolutional Neural Networks",
+      "skill_targeted": "Python",
+      "difficulty": "Easy",
+      "question": "Walk me through how you would troubleshoot a performance bottleneck related to Convolutional Neural Networks in an enterprise application.",
+      "rationale": "Tests deep mastery of 'Python' matching core JD requirements and candidate's stated skill set.",
+      "expected_answer_points": [
+        "Mastery of Feature maps",
+        "Mastery of Pooling layers",
+        "Mastery of Receptive field",
+        "Mastery of Filter kernels",
+        "Clear trade-off reasoning",
+        "Practical implementation awareness"
+      ],
+      "rubric_5_scale": "Candidate articulates Convolutional Neural Networks fundamentals, discusses Feature maps and Pooling layers, and recognizes production constraints.",
+      "follow_up_probe": "If you had to scale or optimize Convolutional Neural Networks under 10x traffic volume, what would be your first engineering step?"
+    },
+    {
+      "id": "TECH-02",
+      "category": "Technical",
+      "topic": "Vector Databases & Embeddings",
+      "skill_targeted": "Scikit-Learn",
+      "difficulty": "Medium",
+      "question": "While your primary background includes Python, PyTorch, this role heavily utilizes Scikit-Learn. What key best practices and metrics should an engineering team monitor when deploying features utilizing Vector Databases & Embeddings?",
+      "rationale": "Probes candidate's adaptability in 'Scikit-Learn', which is required by the JD but not prominent on resume.",
+      "expected_answer_points": [
+        "Mastery of Cosine distance vs dot product",
+        "Mastery of HNSW indexing",
+        "Mastery of FAISS clustering",
+        "Mastery of Dimensionality",
+        "Clear trade-off reasoning",
+        "Practical implementation awareness"
+      ],
+      "rubric_5_scale": "Candidate articulates Vector Databases & Embeddings fundamentals, discusses Cosine distance vs dot product and HNSW indexing, and recognizes production constraints.",
+      "follow_up_probe": "If you had to scale or optimize Vector Databases & Embeddings under 10x traffic volume, what would be your first engineering step?"
+    },
+    {
+      "id": "TECH-03",
+      "category": "Technical",
+      "topic": "Convolutional Neural Networks",
+      "skill_targeted": "NumPy",
+      "difficulty": "Medium",
+      "question": "Can you compare Convolutional Neural Networks with alternative approaches, detailing the specific performance and maintainability trade-offs?",
+      "rationale": "Tests deep mastery of 'NumPy' matching core JD requirements and candidate's stated skill set.",
+      "expected_answer_points": [
+        "Mastery of Feature maps",
+        "Mastery of Pooling layers",
+        "Mastery of Receptive field",
+        "Mastery of Filter kernels",
+        "Clear trade-off reasoning",
+        "Practical implementation awareness"
+      ],
+      "rubric_5_scale": "Candidate articulates Convolutional Neural Networks fundamentals, discusses Feature maps and Pooling layers, and recognizes production constraints.",
+      "follow_up_probe": "If you had to scale or optimize Convolutional Neural Networks under 10x traffic volume, what would be your first engineering step?"
+    },
+    {
+      "id": "TECH-04",
+      "category": "Technical",
+      "topic": "Loss Functions",
+      "skill_targeted": "Git",
+      "difficulty": "Medium",
+      "question": "In a high-scale production system, what common pitfalls arise when implementing Loss Functions, and how do you mitigate them?",
+      "rationale": "Tests deep mastery of 'Git' matching core JD requirements and candidate's stated skill set.",
+      "expected_answer_points": [
+        "Mastery of Cross-Entropy vs MSE",
+        "Mastery of Hinge Loss",
+        "Mastery of Focal Loss for imbalanced data",
+        "Mastery of Differentiability",
+        "Clear trade-off reasoning",
+        "Practical implementation awareness"
+      ],
+      "rubric_5_scale": "Candidate articulates Loss Functions fundamentals, discusses Cross-Entropy vs MSE and Hinge Loss, and recognizes production constraints.",
+      "follow_up_probe": "If you had to scale or optimize Loss Functions under 10x traffic volume, what would be your first engineering step?"
+    },
+    {
+      "id": "TECH-05",
+      "category": "Technical",
+      "topic": "LLMs & Retrieval-Augmented Generation (RAG)",
+      "skill_targeted": "Generative AI",
+      "difficulty": "Hard",
+      "question": "Walk me through the architecture of a production-grade RAG pipeline. How do you handle chunking, embedding retrieval, re-ranking, and hallucination reduction?",
+      "rationale": "Tests deep mastery of 'Generative AI' matching core JD requirements and candidate's stated skill set.",
+      "expected_answer_points": [
+        "Document chunking strategies (semantic chunking, sliding window with overlap)",
+        "Vector database indexing (HNSW, FAISS, Cosine/Dot similarity)",
+        "Bi-encoder dense retrieval followed by Cross-Encoder re-ranking",
+        "Prompt grounding with strict context injection and hallucination guardrails (e.g., citations, faithfulness check)"
+      ],
+      "rubric_5_scale": "Demonstrates practical production knowledge: chunk overlap trade-offs, vector search limitations, hybrid lexical/semantic search, and hallucination mitigation.",
+      "follow_up_probe": "How would you measure the retrieval accuracy (hit rate / MRR) independently of the LLM generation quality?"
+    }
+  ],
+  "behavioral_questions": [
+    {
+      "id": "BEH-01",
+      "category": "Behavioral",
+      "competency": "Learning Agility & Curiosity",
+      "difficulty": "Easy",
+      "question": "What is a new technology, framework, or concept you decided to learn entirely on your own recently? What motivated you and how did you apply it?",
+      "star_framework": {
+        "situation": "Context of the challenging environment or technical roadblock.",
+        "task": "Specific goal or project deliverable required.",
+        "action": "Methodical research, debugging, teamwork, and engineering steps taken.",
+        "result": "Measurable business/project outcome and key lessons learned."
+      },
+      "green_flags": [
+        "Intrinsic passion for computing and continuous self-improvement",
+        "Builds practical hands-on projects rather than just passively watching tutorials",
+        "Reflects on strengths and trade-offs of the newly learned technology"
+      ],
+      "red_flags": [
+        "Only learns what is strictly mandated by exams or assignments",
+        "Superficial buzzword knowledge without hands-on depth",
+        "Reluctance to step outside comfortable tech stack"
+      ],
+      "rubric_5_scale": "Full STAR alignment: demonstrates concrete actions taken, measurable impact, team reflection. Green flags: Intrinsic passion for computing and continuous self-improvement, Builds practical hands-on projects rather than just passively watching tutorials",
+      "follow_up_probe": "What was the most surprising nuance or limitation you discovered about that technology while building with it?"
+    },
+    {
+      "id": "BEH-02",
+      "category": "Behavioral",
+      "competency": "Collaboration & Team Communication",
+      "difficulty": "Easy",
+      "question": "Describe a situation in a group project or previous role where you had a technical disagreement with a team member. How did you navigate the conversation to reach a consensus?",
+      "star_framework": {
+        "situation": "Context of the challenging environment or technical roadblock.",
+        "task": "Specific goal or project deliverable required.",
+        "action": "Methodical research, debugging, teamwork, and engineering steps taken.",
+        "result": "Measurable business/project outcome and key lessons learned."
+      },
+      "green_flags": [
+        "Focuses on data, benchmarks, and project goals rather than personal ego",
+        "Listens actively and acknowledges merit in counterpart's perspective",
+        "Supports team consensus once decided even if initially differing"
+      ],
+      "red_flags": [
+        "Personalized hostility or stubborn rigidity",
+        "Passive-aggressive compliance or disengagement",
+        "Unable to articulate why the team chose the ultimate solution"
+      ],
+      "rubric_5_scale": "Full STAR alignment: demonstrates concrete actions taken, measurable impact, team reflection. Green flags: Focuses on data, benchmarks, and project goals rather than personal ego, Listens actively and acknowledges merit in counterpart's perspective",
+      "follow_up_probe": "If the chosen solution later ran into unexpected performance bottlenecks, how did you and your team handle the pivot?"
+    },
+    {
+      "id": "BEH-03",
+      "category": "Behavioral",
+      "competency": "Ownership & Time Management",
+      "difficulty": "Medium",
+      "question": "Can you share an example of a project where you had to manage tight deadlines with competing priorities? How did you prioritize your tasks and ensure quality delivery?",
+      "star_framework": {
+        "situation": "Context of the challenging environment or technical roadblock.",
+        "task": "Specific goal or project deliverable required.",
+        "action": "Methodical research, debugging, teamwork, and engineering steps taken.",
+        "result": "Measurable business/project outcome and key lessons learned."
+      },
+      "green_flags": [
+        "Communicates early when deadlines are at risk",
+        "Identifies high-impact Minimum Viable Product (MVP) scope",
+        "Demonstrates self-discipline and organized task tracking (Kanban, Jira, Trello)"
+      ],
+      "red_flags": [
+        "Waited until deadline passed to inform stakeholders of delays",
+        "Cut corners on security, tests, or documentation without agreement",
+        "Lacks systematic prioritization framework"
+      ],
+      "rubric_5_scale": "Full STAR alignment: demonstrates concrete actions taken, measurable impact, team reflection. Green flags: Communicates early when deadlines are at risk, Identifies high-impact Minimum Viable Product (MVP) scope",
+      "follow_up_probe": "If a stakeholder requested an urgent last-minute feature 24 hours before release, how would you respond?"
+    }
+  ],
+  "project_deep_dive_questions": [
+    {
+      "id": "PROJ-01",
+      "category": "Project Deep Dive",
+      "project_name": "Real-time Autonomous Drone Navigation Simulator",
+      "question": "In your project 'Real-time Autonomous Drone Navigation Simulator', you leveraged Python, PyTorch, Gymnasium, NumPy, Matplotlib. What was the most critical architectural decision you made, and what alternative approaches did you consider and reject?",
+      "architectural_focus": "System Design & Real-world Implementation (Python, PyTorch, Gymnasium, NumPy, Matplotlib)",
+      "expected_answer_points": [
+        "Explains why Python, PyTorch, Gymnasium, NumPy, Matplotlib was selected over alternatives",
+        "Discusses data flow, state management, or model training challenges",
+        "Demonstrates practical hands-on debugging rather than theoretical claims"
+      ],
+      "rubric_5_scale": "Deeply understands their own codebase, explains trade-offs with clarity, and shows realistic production maturity.",
+      "follow_up_probe": "What specific metrics or tests did you use to verify performance in 'Real-time Autonomous Drone Navigation Simulator'?"
+    }
+  ],
+  "coding_scenario": {
+    "title": "AI & Machine Learning Live Practical Scenario",
+    "scenario": "Suppose a user reports that a critical service in your AI & Machine Learning stack is experiencing intermittent 504 gateway timeouts under peak morning traffic. Walk through your step-by-step diagnostic workflow, telemetry inspection, and remediation strategy.",
+    "evaluation_criteria": [
+      "Checks logs, metrics (CPU, RAM, DB connections), and error traces",
+      "Reproduces issue with isolated test case or query profiler",
+      "Proposes short-term mitigation (scaling/caching) and long-term architectural fix"
+    ]
+  }
+}

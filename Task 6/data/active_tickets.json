@@ -1,0 +1,110 @@
+[
+  {
+    "ticket_id": "TCK-1009",
+    "intern_name": "Ali Khan",
+    "intern_email": "intern@internee.pk",
+    "category": "Task Submission",
+    "query": "Urgent: cannot see task 6 assignment module",
+    "status": "Open",
+    "priority": "High",
+    "created_at": "2026-09-02 18:08:54",
+    "notes": "Escalated from AI Chatbot for mentor review.",
+    "confidence": 0.0
+  },
+  {
+    "ticket_id": "TCK-1001",
+    "intern_name": "Sample Intern",
+    "intern_email": "intern@internee.pk",
+    "category": "Task Submission",
+    "query": "I submitted the wrong repository link for Task 3, how can I re-upload?",
+    "status": "Resolved",
+    "priority": "Medium",
+    "created_at": "2026-09-02 18:07:38",
+    "notes": "Interns can resubmit their assignment within the task submission window before grading starts. Head to Dashboard > Tasks > Task 3, click 'Edit Submission', update the link, and save. If grading has already completed, ask your domain mentor in Discord to unlock it.",
+    "confidence": 0.95
+  },
+  {
+    "ticket_id": "TCK-1002",
+    "intern_name": "Sample Intern",
+    "intern_email": "intern@internee.pk",
+    "category": "Account & Portal",
+    "query": "I am getting error 403 Forbidden when accessing the assignment upload portal",
+    "status": "Resolved",
+    "priority": "High",
+    "created_at": "2026-09-02 18:07:38",
+    "notes": "Error 403 usually occurs if your session expired or browser cookies are corrupted. Clear your browser cache and cookies, or try logging in through an Incognito/Private window. Make sure you are using your registered student email address.",
+    "confidence": 0.95
+  },
+  {
+    "ticket_id": "TCK-1003",
+    "intern_name": "Sample Intern",
+    "intern_email": "intern@internee.pk",
+    "category": "Certificates & Verification",
+    "query": "My name spelling on the certificate is wrong (Muhammad is spelled Muhamad)",
+    "status": "Resolved",
+    "priority": "Medium",
+    "created_at": "2026-09-02 18:07:38",
+    "notes": "Certificate name corrections can be requested by emailing certificates@internee.pk with your Student ID, copy of CNIC/National ID or Student ID Card, and the corrected name. Turnaround time for re-issuance is 48 hours.",
+    "confidence": 0.95
+  },
+  {
+    "ticket_id": "TCK-1004",
+    "intern_name": "Sample Intern",
+    "intern_email": "intern@internee.pk",
+    "category": "Technical Setup",
+    "query": "Getting ModuleNotFoundError: No module named 'torch' or 'transformers' during setup",
+    "status": "Resolved",
+    "priority": "Medium",
+    "created_at": "2026-09-02 18:07:38",
+    "notes": "Activate your designated virtual environment first: `python -m venv venv`, then `./venv/Scripts/activate` (Windows) or `source venv/bin/activate` (Linux/Mac). Then run `pip install --upgrade pip` followed by `pip install torch transformers`.",
+    "confidence": 0.95
+  },
+  {
+    "ticket_id": "TCK-1005",
+    "intern_name": "Sample Intern",
+    "intern_email": "intern@internee.pk",
+    "category": "General Policies",
+    "query": "I have university final exams next week. Can I get a 10 day extension?",
+    "status": "Resolved",
+    "priority": "Low",
+    "created_at": "2026-09-02 18:07:38",
+    "notes": "Exam leaves are approved under the Internship Freeze Policy. Go to Support > Request Leave, upload your university exam datesheet, and select a freeze duration of up to 14 days. Your deadline will automatically shift.",
+    "confidence": 0.95
+  },
+  {
+    "ticket_id": "TCK-1006",
+    "intern_name": "Sample Intern",
+    "intern_email": "intern@internee.pk",
+    "category": "Mentorship & Community",
+    "query": "The Discord invite link in my welcome email says expired",
+    "status": "Resolved",
+    "priority": "High",
+    "created_at": "2026-09-02 18:07:38",
+    "notes": "Discord links expire periodically for security. You can join directly through the permanent community invite link: https://discord.gg/interneepk. Once joined, go to #roles and verify with your student ID.",
+    "confidence": 0.95
+  },
+  {
+    "ticket_id": "TCK-1007",
+    "intern_name": "Sample Intern",
+    "intern_email": "intern@internee.pk",
+    "category": "Certificates & Verification",
+    "query": "I completed all tasks two weeks ago but my certificate download button is disabled",
+    "status": "Resolved",
+    "priority": "High",
+    "created_at": "2026-09-02 18:07:38",
+    "notes": "Certificates are unlocked only after all submissions reach 'Approved' status by evaluators. Check your task status in the portal\u2014if any task is marked 'Under Review' or 'Pending Revision', follow up with your mentor or resubmit the required revisions.",
+    "confidence": 0.95
+  },
+  {
+    "ticket_id": "TCK-1008",
+    "intern_name": "Sample Intern",
+    "intern_email": "intern@internee.pk",
+    "category": "Task Submission",
+    "query": "My file is too large to upload directly on portal",
+    "status": "Resolved",
+    "priority": "Low",
+    "created_at": "2026-09-02 18:07:38",
+    "notes": "Do not upload zip files or large binaries directly to the portal. Push your code, models, and assets to GitHub (using Git LFS if needed) or host large datasets on Google Drive/Kaggle and include public links inside your repository README.md.",
+    "confidence": 0.95
+  }
+]

@@ -1,0 +1,114 @@
+[
+  {
+    "id": "faq_001",
+    "category": "Task Submission",
+    "question": "How do I submit my weekly internship tasks?",
+    "keywords": ["submit", "task", "weekly", "github", "portal", "submission", "link"],
+    "answer": "To submit your weekly task:\n1. Upload your project code to a public GitHub repository.\n2. Ensure your repository includes a comprehensive `README.md` with instructions, architecture details, and screenshots.\n3. Log in to your **Internee.pk Student Portal**.\n4. Navigate to **My Tasks / Assignments**, select the respective task number, paste your public GitHub repository link, and click **Submit Assignment**.\n5. You will see a confirmation message once recorded.",
+    "links": ["https://portal.internee.pk/dashboard/tasks"]
+  },
+  {
+    "id": "faq_002",
+    "category": "Task Submission",
+    "question": "Can I submit tasks after the deadline or request an extension?",
+    "keywords": ["deadline", "late", "extension", "delayed", "submit late", "grace period"],
+    "answer": "Yes, we offer a **48-hour grace period** for task submissions with a minor late penalty (5% deduction). If you face an emergency or medical condition, please navigate to the **Support / Ticket** section of the portal at least 24 hours before the deadline to request a formal extension with proof.",
+    "links": ["https://portal.internee.pk/support/extension"]
+  },
+  {
+    "id": "faq_003",
+    "category": "Task Submission",
+    "question": "How are task assignments evaluated and graded?",
+    "keywords": ["evaluation", "grade", "marks", "rubric", "mentor review", "scoring"],
+    "answer": "Task submissions are evaluated based on a 100-point rubric:\n- **Code Quality & Functionality (40%)**: Does the implementation meet all project objectives?\n- **Documentation & README (25%)**: Clear setup steps, architecture diagram, and usage notes.\n- **UI/UX & Aesthetics (20%)**: Modern design standards and responsive layout.\n- **Adherence to Best Practices (15%)**: Clean commits, folder structure, and modular code.\nGrades and mentor feedback appear in your portal within 3 to 5 business days.",
+    "links": []
+  },
+  {
+    "id": "faq_004",
+    "category": "Certificates & Verification",
+    "question": "When will I receive my internship completion certificate?",
+    "keywords": ["certificate", "completion", "when", "receive", "download", "diploma"],
+    "answer": "Internship certificates are generated automatically within **7 to 10 working days** following the completion of your batch and successful evaluation of all required tasks (minimum 70% overall score). Once issued, you can download your verified digital certificate directly from your portal dashboard.",
+    "links": ["https://portal.internee.pk/dashboard/certificates"]
+  },
+  {
+    "id": "faq_005",
+    "category": "Certificates & Verification",
+    "question": "How can employers verify my Internee.pk certificate?",
+    "keywords": ["verify", "verification", "check certificate", "authenticity", "credential id"],
+    "answer": "Every Internee.pk certificate comes with a unique **Credential ID** and a direct QR verification code. Employers can verify validity 24/7 by visiting **https://internee.pk/verify** and entering your Credential ID.",
+    "links": ["https://internee.pk/verify"]
+  },
+  {
+    "id": "faq_006",
+    "category": "Certificates & Verification",
+    "question": "Can I get a Letter of Recommendation (LOR)?",
+    "keywords": ["lor", "letter of recommendation", "recommendation", "top performer"],
+    "answer": "Yes! Letters of Recommendation (LOR) are awarded to interns who maintain a score above **85%**, submit all tasks before deadlines, and demonstrate active participation in community discussions. LOR requests can be submitted via the portal upon final graduation.",
+    "links": []
+  },
+  {
+    "id": "faq_007",
+    "category": "Account & Portal",
+    "question": "I forgot my portal password or cannot log in. How do I reset it?",
+    "keywords": ["password", "login", "reset", "forgot password", "cant login", "access"],
+    "answer": "To reset your password:\n1. Go to the login page at **https://portal.internee.pk/login**.\n2. Click on **Forgot Password?**.\n3. Enter your registered email address and check your inbox (including Spam/Junk folder) for the reset link.\nIf you do not receive the email within 15 minutes, please create a support ticket with your registered email and student ID.",
+    "links": ["https://portal.internee.pk/forgot-password"]
+  },
+  {
+    "id": "faq_008",
+    "category": "Account & Portal",
+    "question": "How do I update my profile details, name, or phone number?",
+    "keywords": ["profile", "update profile", "change name", "phone number", "edit details"],
+    "answer": "Go to **Dashboard > Settings > My Profile**. You can edit your phone number, LinkedIn URL, and portfolio link. Note: To change your legal name as it appears on certificates, you must submit a verification ticket along with a valid student ID card.",
+    "links": ["https://portal.internee.pk/dashboard/settings"]
+  },
+  {
+    "id": "faq_009",
+    "category": "Mentorship & Community",
+    "question": "How can I connect with my assigned mentor or ask technical doubts?",
+    "keywords": ["mentor", "help", "doubts", "technical question", "guidance", "discord", "slack", "office hours"],
+    "answer": "You can connect with mentors through:\n1. **Official Discord / Slack Community**: Post in your respective domain channel (e.g., `#ai-ml-interns`, `#web-dev`).\n2. **Weekly Q&A Office Hours**: Held every Wednesday and Saturday evening on Google Meet.\n3. **Task Comments**: Leave a specific note on your task submission card in the portal for feedback.",
+    "links": ["https://discord.gg/interneepk"]
+  },
+  {
+    "id": "faq_010",
+    "category": "General Policies",
+    "question": "What is the duration of the internship program?",
+    "keywords": ["duration", "length", "how long", "weeks", "months", "period"],
+    "answer": "Standard Internee.pk virtual internships run for **1 to 2 months** (4 to 8 weeks depending on the specific program track). Each week comprises 1 major hands-on project task.",
+    "links": []
+  },
+  {
+    "id": "faq_011",
+    "category": "General Policies",
+    "question": "Is this internship paid or unpaid, and what are the benefits?",
+    "keywords": ["stipend", "paid", "unpaid", "salary", "perks", "benefits"],
+    "answer": "Internee.pk offers free, self-paced, project-driven virtual learning internships designed to give students practical industry portfolio experience. While initial roles are unpaid learning tracks, top 5% performers in every batch are eligible for stipend-backed internal freelance gigs and partner company job referrals.",
+    "links": []
+  },
+  {
+    "id": "faq_012",
+    "category": "Technical Setup",
+    "question": "What tools and software do I need to install for AI / Web Development?",
+    "keywords": ["tools", "software", "install", "vscode", "python", "git", "requirements"],
+    "answer": "For development tasks, we recommend:\n- **VS Code** with Python and ESLint extensions\n- **Git & GitHub Desktop** for version control\n- **Python 3.10+** (with virtual environment support `venv` or `conda`)\n- **Modern Web Browser** (Chrome / Edge with Developer Tools enabled)\nCheck your onboarding kit email for track-specific package recommendations.",
+    "links": []
+  },
+  {
+    "id": "faq_013",
+    "category": "Task Submission",
+    "question": "My GitHub repo is private; will the mentor be able to grade it?",
+    "keywords": ["private repo", "github private", "cannot access", "permission denied", "grade private"],
+    "answer": "No. Mentors cannot access private repositories unless invited. Please make sure your project repository visibility is set to **Public** before submitting the URL in the portal. If your repo remains private, your submission will be marked as *Incomplete*.",
+    "links": []
+  },
+  {
+    "id": "faq_014",
+    "category": "General Policies",
+    "question": "Can I pause my internship or take a temporary leave of absence?",
+    "keywords": ["pause", "leave", "vacation", "exams", "university exams", "freeze"],
+    "answer": "Yes. If university midterms or semester finals conflict with your tasks, you may apply for an **Internship Freeze (up to 2 weeks)** via the portal support desk. Your batch progress will be paused without penalty.",
+    "links": ["https://portal.internee.pk/support/freeze"]
+  }
+]

@@ -1,0 +1,36 @@
+{
+  "rubric_scale": {
+    "1": "Unsatisfactory: Lacks basic conceptual understanding, cannot explain fundamental terms, offers incorrect or misleading explanations.",
+    "2": "Basic / Developing: Superficial knowledge of terminology, struggles to apply concepts to practical scenarios, misses key constraints.",
+    "3": "Competent / Solid: Solid grasp of core concepts, provides accurate explanations, demonstrates practical coding and debugging logic.",
+    "4": "Advanced / Strong: Deep technical comprehension, discusses trade-offs proactively, references best practices and production edge cases.",
+    "5": "Exceptional / Expert: Outstanding mastery, connects theory to high-scale architecture, articulates nuanced trade-offs, shows engineering leadership."
+  },
+  "behavioral_competencies": [
+    {
+      "name": "Problem Solving & Technical Agility",
+      "definition": "Ability to dissect complex, ambiguous problems, debug methodically, and absorb unfamiliar technologies swiftly.",
+      "star_guidelines": "Look for logical root-cause analysis, use of telemetry/logs, structured experimentation, and tangible lessons learned."
+    },
+    {
+      "name": "Collaboration & Team Communication",
+      "definition": "Working effectively with peers, resolving technical disagreements constructively, and communicating complex ideas clearly.",
+      "star_guidelines": "Look for active listening, willingness to build consensus through data/benchmarks, and respect for teammates."
+    },
+    {
+      "name": "Ownership & Accountability",
+      "definition": "Taking end-to-end responsibility for deliverables, meeting commitments, and proactively unblocking blockers.",
+      "star_guidelines": "Look for self-initiative, early communication of risks, and commitment to code quality and testing."
+    },
+    {
+      "name": "Learning Agility & Curiosity",
+      "definition": "Intrinsic drive to explore emerging tools, read documentation, and expand engineering horizons.",
+      "star_guidelines": "Look for self-directed side projects, curiosity about inner mechanics, and rapid uptake of feedback."
+    },
+    {
+      "name": "Adaptability & Resilience",
+      "definition": "Gracefully pivoting when project requirements shift, handling constructive feedback, and recovering from failures.",
+      "star_guidelines": "Look for calm problem re-scoping, modular code adaptability, and a growth mindset."
+    }
+  ]
+}

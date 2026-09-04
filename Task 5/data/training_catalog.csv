@@ -1,0 +1,51 @@
+skill,course_name,platform,duration_weeks,difficulty,project_task
+Pandas,Data Analysis with Python and Pandas,Coursera / IBM,4,Beginner,Analyze exploratory sales datasets and clean messy real-world survey data.
+Scikit-Learn,Applied Machine Learning with Scikit-Learn,Coursera / UMich,5,Intermediate,Build classification & regression pipelines with hyperparameter tuning.
+Tableau,Tableau for Business Intelligence & Visual Analytics,Udemy,3,Beginner,Design interactive KPI dashboards with dynamic filters and drilldowns.
+Power BI,Microsoft Power BI Desktop for Business Intelligence,Coursera / Microsoft,4,Beginner,Model relational schemas and publish executive reporting dashboards.
+Statistical Modeling,Statistics and Probability for Data Science,edX / HarvardX,6,Intermediate,"Perform ANOVA, linear regression diagnostics, and hypothesis tests."
+Feature Engineering,Feature Engineering & Data Preprocessing Mastery,DataCamp,3,Intermediate,"Construct polynomial features, target encodings, and scaling pipelines."
+SQL Optimization,Advanced SQL Query Optimization & Window Functions,Udacity,4,Advanced,"Optimize indexing, execution plans, and write complex nested aggregations."
+BigQuery,Serverless Data Warehousing with Google BigQuery,Google Cloud Training,4,Intermediate,Process multi-gigabyte analytical queries with partitioning and clustering.
+Spark,Distributed Big Data Processing with Apache Spark & PySpark,edX,6,Advanced,Implement Spark DataFrame transformations and streaming pipelines.
+Time Series Forecasting,Time Series Analysis & Forecasting with ARIMA & Prophet,Coursera,4,Intermediate,Forecast 12-month product demand using seasonal decomposition and Prophet.
+XGBoost,Extreme Gradient Boosting (XGBoost) Masterclass,Kaggle Learn,2,Intermediate,Tune gradient boosting trees to achieve top performance on tabular datasets.
+Airflow,Data Pipeline Automation with Apache Airflow,Udemy,4,Advanced,Construct modular DAGs for ETL workflows with automated retry policies.
+PyTorch,Deep Learning with PyTorch: Zero to GANs,freeCodeCamp / Jovian,6,Intermediate,"Implement custom neural network modules, autograd training loops, and tensor operations."
+TensorFlow,DeepLearning.AI TensorFlow Developer Certificate,Coursera / DeepLearning.AI,8,Intermediate,Build CNNs and recurrent models for image and text classification.
+Transformers,Hugging Face Transformers & Modern NLP Course,Hugging Face Academy,5,Advanced,Fine-tune BERT and RoBERTa models for sentiment analysis and token classification.
+Natural Language Processing,Natural Language Processing Specialization,Coursera / DeepLearning.AI,8,Intermediate,"Implement tokenizers, word embeddings (Word2Vec), and seq2seq models."
+Computer Vision,Computer Vision Deep Dive: Object Detection & Segmentation,Coursera,6,Advanced,Build YOLO object detection and semantic segmentation pipelines.
+MLOps,Machine Learning Operations (MLOps) Specialization,Coursera / DeepLearning.AI,6,Advanced,"Automate continuous model training, versioning with DVC, and deployment with CI/CD."
+LangChain,Building LLM Applications with LangChain & Vector Stores,DeepLearning.AI,3,Intermediate,Construct a retrieval-augmented generation (RAG) agent over internal documentation.
+Vector Databases,Vector Search and Embeddings with Pinecone & Chroma,Pinecone Learning Center,2,Intermediate,Embed semantic documents and implement fast k-NN vector queries.
+MLflow,Model Tracking and Experiment Management with MLflow,Databricks Academy,2,Beginner,"Track hyperparameters, artifacts, and register production models."
+React,Modern React with Redux Toolkit,Udemy / Stephen Grider,6,Intermediate,Build a responsive web application with custom hooks and centralized state.
+Node.js,"Node.js, Express, MongoDB & More: The Complete Bootcamp",Udemy / Jonas Schmedtmann,7,Intermediate,Develop a production REST API with authentication and security middleware.
+TypeScript,Understanding TypeScript - 2026 Edition,Udemy / Maximilian Schwarzmüller,4,Intermediate,Refactor a JavaScript codebase to strictly typed TypeScript interfaces and generics.
+Next.js,Next.js App Router & Server Components Complete Guide,Vercel Learn / YouTube,4,Intermediate,"Create a full-stack blog/e-commerce site with SSR, SSG, and Server Actions."
+GraphQL,GraphQL with Node.js & Apollo Server,Coursera,3,Intermediate,"Design schemas, resolvers, and queries with Apollo Client integration."
+MongoDB,MongoDB Basics & Aggregation Pipeline Mastery,MongoDB University,3,Beginner,Implement complex multi-stage aggregation queries and schema validation.
+PostgreSQL,The Complete SQL & PostgreSQL Mastery Bootcamp,Udemy,4,Beginner,"Design 3NF relational schemas, foreign keys, and perform transactional joins."
+Tailwind CSS,Tailwind CSS From Scratch & Modern UI Layouts,freeCodeCamp,2,Beginner,Build clean responsive landing pages with dark mode support.
+Redis,Redis for High-Performance Caching & Pub/Sub,Redis University,2,Intermediate,Implement API caching layers and session stores using Redis.
+Docker,Docker & Containerization Practical Crash Course,Coursera / Udemy,3,Beginner,Containerize multi-container microservices with docker-compose.
+Kubernetes,Certified Kubernetes Administrator (CKA) Training,KodeKloud / Linux Foundation,6,Advanced,"Deploy Pods, Deployments, Services, Ingress, and ConfigMaps to a cluster."
+AWS,AWS Certified Solutions Architect Associate Prep,Coursera / AWS,8,Intermediate,"Provision VPCs, EC2, S3, RDS, Lambda, and IAM security roles."
+CI/CD Pipelines,Automated CI/CD with GitHub Actions & GitLab CI,Udacity,3,Intermediate,Construct build-test-deploy automated workflow scripts for GitHub repos.
+Terraform,HashiCorp Certified: Terraform Associate Bootcamp,Udemy,4,Intermediate,Write modular Infrastructure as Code (IaC) to spin up multi-region cloud resources.
+Linux,Linux Command Line & Shell Scripting Mastery,edX / Linux Foundation,4,Beginner,"Automate server maintenance with cron jobs, grep, awk, and bash scripts."
+Prometheus,Cloud Monitoring with Prometheus & Alertmanager,Udemy,3,Intermediate,"Scrape node metrics, configure alerts, and route notifications."
+Grafana,Interactive Metrics & Log Visualization in Grafana,Grafana Labs,2,Beginner,Build live telemetry dashboards with custom PromQL queries.
+Network Security,Network Security Fundamentals & Defense Strategies,Coursera / Cisco,5,Intermediate,"Configure firewalls, IDS/IPS rules, and analyze subnet traffic."
+Wireshark,Network Packet Analysis with Wireshark,Pluralsight,2,Beginner,"Capture and inspect TCP handshakes, DNS packets, and malicious payloads."
+Ethical Hacking,Practical Ethical Hacking - Complete Course,TCM Security Academy,8,Intermediate,"Perform reconnaissance, vulnerability scanning, and privilege escalation labs."
+SIEM Tools,SIEM & SOC Operations with Splunk,Splunk Training,4,Intermediate,"Ingest server logs, create threat alerts, and investigate breach simulations."
+OWASP Top 10,Web Application Security & OWASP Top 10 Exploits,Coursera,4,Intermediate,"Identify and patch SQL injection, XSS, CSRF, and SSRF flaws in test web apps."
+Burp Suite,Web Pentesting with Burp Suite Professional,PortSwigger Web Security Academy,3,Intermediate,"Intercept HTTP requests, fuzz parameter endpoints, and exploit auth bypasses."
+Flutter,Flutter & Dart - The Complete Guide (2026),Udemy / Academind,7,Intermediate,Build a cross-platform mobile application with responsive widgets and navigation.
+Dart,Dart Programming Language Essentials,Dart.dev / freeCodeCamp,2,Beginner,"Master object-oriented patterns, async/await streams, and functional Dart."
+React Native,React Native - The Practical Guide,Udemy,6,Intermediate,Develop an iOS & Android app with React Navigation and native device features.
+Firebase,"Firebase for Mobile: Firestore, Auth & Cloud Functions",Google Developers,3,Beginner,"Implement realtime database sync, OAuth user login, and push notifications."
+Kotlin,Android App Development with Kotlin Bootcamp,Coursera / Google,7,Intermediate,"Build modern Android apps using Jetpack Compose, Room DB, and ViewModel."
+Swift,iOS 18 & Swift Development Bootcamp,Udemy / Angela Yu,8,Intermediate,Create SwiftUI apps with CoreData storage and Apple design guidelines.

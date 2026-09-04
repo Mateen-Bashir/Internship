@@ -1,0 +1,9 @@
+# Generated dependencies and local environments
+**/node_modules/
+**/.venv/
+**/venv/
+**/__pycache__/
+*.pyc
+
+# Dataset exceeds GitHub's regular 100 MB file limit
+Task 2/dataset 1/glassdoor_reviews.csv

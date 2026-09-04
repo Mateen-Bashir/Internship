@@ -1,0 +1,2948 @@
+[
+  {
+    "id": "INT-001",
+    "name": "Zubair Sheikh",
+    "track": "AI & Machine Learning",
+    "email": "zubair.sheikh.1@internship.edu.pk",
+    "university": "National University of Sciences & Technology (NUST)",
+    "degree": "BS Artificial Intelligence",
+    "gpa": 3.35,
+    "graduation_year": 2024,
+    "technical_skills": [
+      "Python",
+      "Deep Learning",
+      "CNNs",
+      "RNNs",
+      "PyTorch",
+      "Docker",
+      "HuggingFace",
+      "LangChain",
+      "Vector DBs",
+      "Git",
+      "Problem Solving"
+    ],
+    "experience_summary": "Self-Taught Passionate Engineer with active GitHub Portfolio (15+ Repos)",
+    "projects": [
+      {
+        "title": "Real-time Autonomous Drone Navigation Simulator",
+        "desc": "Trained a Deep Q-Network (DQN) reinforcement learning agent in AirSim for obstacle avoidance in cluttered 3D environments.",
+        "tech": [
+          "Python",
+          "PyTorch",
+          "Gymnasium",
+          "NumPy",
+          "Matplotlib"
+        ]
+      }
+    ],
+    "strengths": [
+      "Strong foundations in AI & Machine Learning",
+      "Eager to learn modern enterprise tech stacks",
+      "Passionate about scalable architecture and clean code"
+    ],
+    "areas_to_probe": [
+      "Production debugging under high-load failure scenarios",
+      "In-depth concurrency / memory management trade-offs"
+    ],
+    "bio": "BS Artificial Intelligence student at National University of Sciences & Technology (NUST) passionate about AI & Machine Learning. Built 1 major technical projects using Python, Deep Learning, CNNs, RNNs."
+  },
+  {
+    "id": "INT-002",
+    "name": "Mustafa Nawaz",
+    "track": "Data Science & Analytics",
+    "email": "mustafa.nawaz.2@internship.edu.pk",
+    "university": "National University of Sciences & Technology (NUST)",
+    "degree": "BS Cyber Security",
+    "gpa": 3.32,
+    "graduation_year": 2026,
+    "technical_skills": [
+      "Python",
+      "PostgreSQL",
+      "Spark",
+      "PySpark",
+      "Data Pipelines",
+      "Snowflake",
+      "dbt",
+      "Data Modeling",
+      "Docker",
+      "Agile / Scrum"
+    ],
+    "experience_summary": "University Coding Club Lead with Hackathon 1st Place Winner experience",
+    "projects": [
+      {
+        "title": "Algorithmic Crypto Sentiment & Trading Backtester",
+        "desc": "Scraped 2M+ Reddit and Twitter posts with VADER and RoBERTa NLP models to backtest sentiment-driven trading strategies.",
+        "tech": [
+          "Python",
+          "HuggingFace",
+          "Pandas",
+          "Statsmodels",
+          "Plotly",
+          "PostgreSQL"
+        ]
+      }
+    ],
+    "strengths": [
+      "Clear technical communication and documentation",
+      "Strong foundations in Data Science & Analytics",
+      "Passionate about scalable architecture and clean code"
+    ],
+    "areas_to_probe": [
+      "Security best practices and vulnerability mitigation",
+      "Production debugging under high-load failure scenarios"
+    ],
+    "bio": "BS Cyber Security student at National University of Sciences & Technology (NUST) passionate about Data Science & Analytics. Built 1 major technical projects using Python, PostgreSQL, Spark, PySpark."
+  },
+  {
+    "id": "INT-003",
+    "name": "Saad Chaudhry",
+    "track": "Full-Stack Web Development",
+    "email": "saad.chaudhry.3@internship.edu.pk",
+    "university": "Lahore University of Management Sciences (LUMS)",
+    "degree": "BS Artificial Intelligence",
+    "gpa": 3.23,
+    "graduation_year": 2025,
+    "technical_skills": [
+      "JavaScript",
+      "TypeScript",
+      "React.js",
+      "Node.js",
+      "Express.js",
+      "MongoDB",
+      "TailwindCSS",
+      "REST APIs",
+      "Git",
+      "Unit Testing"
+    ],
+    "experience_summary": "University Coding Club Lead with Hackathon 1st Place Winner experience",
+    "projects": [
+      {
+        "title": "Collaborative Real-Time Whiteboard & Code Editor",
+        "desc": "Architected a multi-user collaborative workspace with WebSocket synchronization, operational transforms, and Monaco editor integration.",
+        "tech": [
+          "React.js",
+          "TypeScript",
+          "Node.js",
+          "Socket.io",
+          "Redis",
+          "Docker"
+        ]
+      },
+      {
+        "title": "FinTech Micro-Investment & Budgeting Web App",
+        "desc": "Engineered full-stack personal finance application with Plaid API integration, automated expense categorization, and JWT authentication.",
+        "tech": [
+          "Next.js",
+          "PostgreSQL",
+          "Prisma",
+          "TailwindCSS",
+          "Chart.js",
+          "Jest"
+        ]
+      }
+    ],
+    "strengths": [
+      "Strong foundations in Full-Stack Web Development",
+      "Passionate about scalable architecture and clean code",
+      "Eager to learn modern enterprise tech stacks"
+    ],
+    "areas_to_probe": [
+      "Test-Driven Development (TDD) coverage and CI/CD pipelines",
+      "Security best practices and vulnerability mitigation"
+    ],
+    "bio": "BS Artificial Intelligence student at Lahore University of Management Sciences (LUMS) passionate about Full-Stack Web Development. Built 2 major technical projects using JavaScript, TypeScript, React.js, Node.js."
+  },
+  {
+    "id": "INT-004",
+    "name": "Laiba Ansari",
+    "track": "Backend Engineering (Python / Java / Go)",
+    "email": "laiba.ansari.4@internship.edu.pk",
+    "university": "Institute of Business Administration (IBA) Karachi",
+    "degree": "BS Software Engineering",
+    "gpa": 3.73,
+    "graduation_year": 2024,
+    "technical_skills": [
+      "Go (Golang)",
+      "gRPC",
+      "PostgreSQL",
+      "Docker",
+      "Kubernetes",
+      "Redis",
+      "Goroutines",
+      "REST APIs",
+      "Linux"
+    ],
+    "experience_summary": "Final Year Student with 2 Hands-on Production Projects & Open Source Contributions",
+    "projects": [
+      {
+        "title": "High-Throughput Asynchronous Task Processing Engine",
+        "desc": "Designed a distributed background task engine in Go with Redis queue backend handling 10,000 jobs/sec with graceful shutdown.",
+        "tech": [
+          "Go (Golang)",
+          "Redis",
+          "Docker",
+          "PostgreSQL",
+          "Prometheus"
+        ]
+      }
+    ],
+    "strengths": [
+      "Passionate about scalable architecture and clean code",
+      "Clear technical communication and documentation",
+      "Rapid prototyping and self-directed problem solving"
+    ],
+    "areas_to_probe": [
+      "Test-Driven Development (TDD) coverage and CI/CD pipelines",
+      "In-depth concurrency / memory management trade-offs"
+    ],
+    "bio": "BS Software Engineering student at Institute of Business Administration (IBA) Karachi passionate about Backend Engineering (Python / Java / Go). Built 1 major technical projects using Go (Golang), gRPC, PostgreSQL, Docker."
+  },
+  {
+    "id": "INT-005",
+    "name": "Maryam Ansari",
+    "track": "Frontend Engineering (React / Next.js / Vue)",
+    "email": "maryam.ansari.5@internship.edu.pk",
+    "university": "Lahore University of Management Sciences (LUMS)",
+    "degree": "BS Artificial Intelligence",
+    "gpa": 3.73,
+    "graduation_year": 2026,
+    "technical_skills": [
+      "React.js",
+      "TypeScript",
+      "Zustand",
+      "Styled Components",
+      "GraphQL",
+      "Storybook",
+      "Webpack / Vite",
+      "Git",
+      "Docker"
+    ],
+    "experience_summary": "Junior Developer with 6-Month Previous Web Internship Experience",
+    "projects": [
+      {
+        "title": "Accessible Design System & Component Library",
+        "desc": "Created WCAG 2.1 AA compliant UI library with 40+ modular components, Storybook documentation, and automated visual regression testing.",
+        "tech": [
+          "React",
+          "TypeScript",
+          "Tailwind CSS",
+          "Storybook",
+          "Jest",
+          "Framer Motion"
+        ]
+      }
+    ],
+    "strengths": [
+      "Passionate about scalable architecture and clean code",
+      "Eager to learn modern enterprise tech stacks",
+      "Rapid prototyping and self-directed problem solving"
+    ],
+    "areas_to_probe": [
+      "Production debugging under high-load failure scenarios",
+      "Test-Driven Development (TDD) coverage and CI/CD pipelines"
+    ],
+    "bio": "BS Artificial Intelligence student at Lahore University of Management Sciences (LUMS) passionate about Frontend Engineering (React / Next.js / Vue). Built 1 major technical projects using React.js, TypeScript, Zustand, Styled Components."
+  },
+  {
+    "id": "INT-006",
+    "name": "Omer Ahmed",
+    "track": "Cloud & DevOps Engineering",
+    "email": "omer.ahmed.6@internship.edu.pk",
+    "university": "Lahore University of Management Sciences (LUMS)",
+    "degree": "BS Computer Science",
+    "gpa": 3.82,
+    "graduation_year": 2025,
+    "technical_skills": [
+      "Python",
+      "Docker",
+      "Ansible",
+      "Terraform",
+      "Azure",
+      "Prometheus",
+      "Grafana",
+      "GitLab CI",
+      "Git",
+      "Linux"
+    ],
+    "experience_summary": "Self-Taught Passionate Engineer with active GitHub Portfolio (15+ Repos)",
+    "projects": [
+      {
+        "title": "Multi-Region Kubernetes Microservice Deployment via Terraform",
+        "desc": "Provisioned high-availability AWS EKS cluster with Terraform, automated ingress routing via Traefik, and Prometheus monitoring.",
+        "tech": [
+          "Terraform",
+          "AWS",
+          "Kubernetes",
+          "Helm",
+          "Prometheus",
+          "GitHub Actions"
+        ]
+      },
+      {
+        "title": "GitOps Automated CI/CD Pipeline with ArgoCD",
+        "desc": "Designed zero-downtime canary deployment pipeline for 8 microservices with automated security scanning using Trivy.",
+        "tech": [
+          "GitHub Actions",
+          "ArgoCD",
+          "Kubernetes",
+          "Docker",
+          "Trivy",
+          "Bash"
+        ]
+      }
+    ],
+    "strengths": [
+      "Passionate about scalable architecture and clean code",
+      "Rapid prototyping and self-directed problem solving",
+      "Eager to learn modern enterprise tech stacks"
+    ],
+    "areas_to_probe": [
+      "Production debugging under high-load failure scenarios",
+      "In-depth concurrency / memory management trade-offs"
+    ],
+    "bio": "BS Computer Science student at Lahore University of Management Sciences (LUMS) passionate about Cloud & DevOps Engineering. Built 2 major technical projects using Python, Docker, Ansible, Terraform."
+  },
+  {
+    "id": "INT-007",
+    "name": "Rida Hussain",
+    "track": "Cybersecurity & Information Assurance",
+    "email": "rida.hussain.7@internship.edu.pk",
+    "university": "Quaid-i-Azam University",
+    "degree": "BS Artificial Intelligence",
+    "gpa": 3.77,
+    "graduation_year": 2025,
+    "technical_skills": [
+      "Application Security",
+      "SAST / DAST",
+      "SOC Operations",
+      "Penetration Testing",
+      "Security Auditing",
+      "Git",
+      "Agile / Scrum",
+      "REST APIs"
+    ],
+    "experience_summary": "University Coding Club Lead with Hackathon 1st Place Winner experience",
+    "projects": [
+      {
+        "title": "Automated Network Threat Detection & Honeypot System",
+        "desc": "Deployed Cowrie honeypots in AWS to capture and analyze 50,000+ brute-force attempts with automated ELK stack alerting.",
+        "tech": [
+          "Python",
+          "ELK Stack",
+          "Suricata",
+          "Wireshark",
+          "Bash",
+          "Linux"
+        ]
+      }
+    ],
+    "strengths": [
+      "Passionate about scalable architecture and clean code",
+      "Strong foundations in Cybersecurity & Information Assurance",
+      "Eager to learn modern enterprise tech stacks"
+    ],
+    "areas_to_probe": [
+      "In-depth concurrency / memory management trade-offs",
+      "Security best practices and vulnerability mitigation"
+    ],
+    "bio": "BS Artificial Intelligence student at Quaid-i-Azam University passionate about Cybersecurity & Information Assurance. Built 1 major technical projects using Application Security, SAST / DAST, SOC Operations, Penetration Testing."
+  },
+  {
+    "id": "INT-008",
+    "name": "Zubair Raza",
+    "track": "Mobile App Development (Flutter / Android / iOS)",
+    "email": "zubair.raza.8@internship.edu.pk",
+    "university": "University of Engineering & Technology (UET) Lahore",
+    "degree": "BS Cyber Security",
+    "gpa": 3.2,
+    "graduation_year": 2025,
+    "technical_skills": [
+      "Swift",
+      "iOS SDK",
+      "SwiftUI",
+      "Combine",
+      "CoreData",
+      "URLSession",
+      "Xcode",
+      "App Store Deployment",
+      "Agile / Scrum",
+      "Docker"
+    ],
+    "experience_summary": "Final Year Student with 2 Hands-on Production Projects & Open Source Contributions",
+    "projects": [
+      {
+        "title": "Campus Community & Event Management App",
+        "desc": "Cross-platform Flutter application for 15,000+ university students with real-time push notifications, QR ticketing, and offline sync.",
+        "tech": [
+          "Flutter",
+          "Dart",
+          "Firebase",
+          "Bloc",
+          "Cloud Functions",
+          "SQLite"
+        ]
+      }
+    ],
+    "strengths": [
+      "Eager to learn modern enterprise tech stacks",
+      "Clear technical communication and documentation",
+      "Passionate about scalable architecture and clean code"
+    ],
+    "areas_to_probe": [
+      "Test-Driven Development (TDD) coverage and CI/CD pipelines",
+      "In-depth concurrency / memory management trade-offs"
+    ],
+    "bio": "BS Cyber Security student at University of Engineering & Technology (UET) Lahore passionate about Mobile App Development (Flutter / Android / iOS). Built 1 major technical projects using Swift, iOS SDK, SwiftUI, Combine."
+  },
+  {
+    "id": "INT-009",
+    "name": "Hira Shah",
+    "track": "AI & Machine Learning",
+    "email": "hira.shah.9@internship.edu.pk",
+    "university": "Ghulam Ishaq Khan Institute (GIKI)",
+    "degree": "BS Data Science",
+    "gpa": 3.15,
+    "graduation_year": 2026,
+    "technical_skills": [
+      "Python",
+      "Deep Learning",
+      "CNNs",
+      "RNNs",
+      "PyTorch",
+      "Docker",
+      "HuggingFace",
+      "LangChain",
+      "Vector DBs",
+      "REST APIs"
+    ],
+    "experience_summary": "Final Year Student with 2 Hands-on Production Projects & Open Source Contributions",
+    "projects": [
+      {
+        "title": "Real-time Autonomous Drone Navigation Simulator",
+        "desc": "Trained a Deep Q-Network (DQN) reinforcement learning agent in AirSim for obstacle avoidance in cluttered 3D environments.",
+        "tech": [
+          "Python",
+          "PyTorch",
+          "Gymnasium",
+          "NumPy",
+          "Matplotlib"
+        ]
+      }
+    ],
+    "strengths": [
+      "Clear technical communication and documentation",
+      "Rapid prototyping and self-directed problem solving",
+      "Strong foundations in AI & Machine Learning"
+    ],
+    "areas_to_probe": [
+      "Test-Driven Development (TDD) coverage and CI/CD pipelines",
+      "In-depth concurrency / memory management trade-offs"
+    ],
+    "bio": "BS Data Science student at Ghulam Ishaq Khan Institute (GIKI) passionate about AI & Machine Learning. Built 1 major technical projects using Python, Deep Learning, CNNs, RNNs."
+  },
+  {
+    "id": "INT-010",
+    "name": "Noor Akram",
+    "track": "Data Science & Analytics",
+    "email": "noor.akram.10@internship.edu.pk",
+    "university": "National University of Sciences & Technology (NUST)",
+    "degree": "BS Cyber Security",
+    "gpa": 3.42,
+    "graduation_year": 2024,
+    "technical_skills": [
+      "Python",
+      "Pandas",
+      "SQL",
+      "Tableau",
+      "PowerBI",
+      "Statistical Modeling",
+      "A/B Testing",
+      "Scikit-Learn",
+      "REST APIs",
+      "Unit Testing"
+    ],
+    "experience_summary": "Junior Developer with 6-Month Previous Web Internship Experience",
+    "projects": [
+      {
+        "title": "Customer Churn Prediction & Retention Dashboard",
+        "desc": "Built predictive XGBoost pipeline predicting telecom subscriber churn (ROC-AUC 0.89) with automated Tableau dashboard.",
+        "tech": [
+          "Python",
+          "Pandas",
+          "Scikit-Learn",
+          "XGBoost",
+          "Tableau",
+          "SQL"
+        ]
+      }
+    ],
+    "strengths": [
+      "Eager to learn modern enterprise tech stacks",
+      "Strong foundations in Data Science & Analytics",
+      "Passionate about scalable architecture and clean code"
+    ],
+    "areas_to_probe": [
+      "Security best practices and vulnerability mitigation",
+      "In-depth concurrency / memory management trade-offs"
+    ],
+    "bio": "BS Cyber Security student at National University of Sciences & Technology (NUST) passionate about Data Science & Analytics. Built 1 major technical projects using Python, Pandas, SQL, Tableau."
+  },
+  {
+    "id": "INT-011",
+    "name": "Taha Hussain",
+    "track": "Full-Stack Web Development",
+    "email": "taha.hussain.11@internship.edu.pk",
+    "university": "Ghulam Ishaq Khan Institute (GIKI)",
+    "degree": "BS Software Engineering",
+    "gpa": 3.7,
+    "graduation_year": 2026,
+    "technical_skills": [
+      "JavaScript",
+      "TypeScript",
+      "React.js",
+      "Node.js",
+      "Express.js",
+      "MongoDB",
+      "TailwindCSS",
+      "REST APIs",
+      "Git",
+      "Docker"
+    ],
+    "experience_summary": "Undergraduate Researcher with 1 Published Workshop Paper & Kaggle Competitions",
+    "projects": [
+      {
+        "title": "Collaborative Real-Time Whiteboard & Code Editor",
+        "desc": "Architected a multi-user collaborative workspace with WebSocket synchronization, operational transforms, and Monaco editor integration.",
+        "tech": [
+          "React.js",
+          "TypeScript",
+          "Node.js",
+          "Socket.io",
+          "Redis",
+          "Docker"
+        ]
+      },
+      {
+        "title": "E-Commerce Multi-Vendor Marketplace with Payment Gateways",
+        "desc": "Developed complete multi-tenant marketplace platform with Stripe checkout, inventory management, and Redis caching.",
+        "tech": [
+          "React",
+          "Express.js",
+          "MongoDB",
+          "Redis",
+          "Stripe API",
+          "AWS S3"
+        ]
+      }
+    ],
+    "strengths": [
+      "Passionate about scalable architecture and clean code",
+      "Clear technical communication and documentation",
+      "Rapid prototyping and self-directed problem solving"
+    ],
+    "areas_to_probe": [
+      "Security best practices and vulnerability mitigation",
+      "In-depth concurrency / memory management trade-offs"
+    ],
+    "bio": "BS Software Engineering student at Ghulam Ishaq Khan Institute (GIKI) passionate about Full-Stack Web Development. Built 2 major technical projects using JavaScript, TypeScript, React.js, Node.js."
+  },
+  {
+    "id": "INT-012",
+    "name": "Maham Farooq",
+    "track": "Backend Engineering (Python / Java / Go)",
+    "email": "maham.farooq.12@internship.edu.pk",
+    "university": "FAST National University of Computer & Emerging Sciences",
+    "degree": "BS Artificial Intelligence",
+    "gpa": 3.17,
+    "graduation_year": 2026,
+    "technical_skills": [
+      "Python",
+      "FastAPI",
+      "PostgreSQL",
+      "Redis",
+      "Docker",
+      "Celery",
+      "SQLAlchemy",
+      "Pytest",
+      "Git",
+      "Linux"
+    ],
+    "experience_summary": "Final Year Student with 2 Hands-on Production Projects & Open Source Contributions",
+    "projects": [
+      {
+        "title": "High-Throughput Asynchronous Task Processing Engine",
+        "desc": "Designed a distributed background task engine in Go with Redis queue backend handling 10,000 jobs/sec with graceful shutdown.",
+        "tech": [
+          "Go (Golang)",
+          "Redis",
+          "Docker",
+          "PostgreSQL",
+          "Prometheus"
+        ]
+      }
+    ],
+    "strengths": [
+      "Rapid prototyping and self-directed problem solving",
+      "Strong foundations in Backend Engineering (Python / Java / Go)",
+      "Passionate about scalable architecture and clean code"
+    ],
+    "areas_to_probe": [
+      "Test-Driven Development (TDD) coverage and CI/CD pipelines",
+      "In-depth concurrency / memory management trade-offs"
+    ],
+    "bio": "BS Artificial Intelligence student at FAST National University of Computer & Emerging Sciences passionate about Backend Engineering (Python / Java / Go). Built 1 major technical projects using Python, FastAPI, PostgreSQL, Redis."
+  },
+  {
+    "id": "INT-013",
+    "name": "Mustafa Farooq",
+    "track": "Frontend Engineering (React / Next.js / Vue)",
+    "email": "mustafa.farooq.13@internship.edu.pk",
+    "university": "COMSATS University Islamabad",
+    "degree": "BS Data Science",
+    "gpa": 3.33,
+    "graduation_year": 2024,
+    "technical_skills": [
+      "React.js",
+      "TypeScript",
+      "Zustand",
+      "Styled Components",
+      "GraphQL",
+      "Storybook",
+      "Webpack / Vite",
+      "Docker",
+      "Unit Testing"
+    ],
+    "experience_summary": "Self-Taught Passionate Engineer with active GitHub Portfolio (15+ Repos)",
+    "projects": [
+      {
+        "title": "Accessible Design System & Component Library",
+        "desc": "Created WCAG 2.1 AA compliant UI library with 40+ modular components, Storybook documentation, and automated visual regression testing.",
+        "tech": [
+          "React",
+          "TypeScript",
+          "Tailwind CSS",
+          "Storybook",
+          "Jest",
+          "Framer Motion"
+        ]
+      }
+    ],
+    "strengths": [
+      "Passionate about scalable architecture and clean code",
+      "Rapid prototyping and self-directed problem solving",
+      "Strong foundations in Frontend Engineering (React / Next.js / Vue)"
+    ],
+    "areas_to_probe": [
+      "In-depth concurrency / memory management trade-offs",
+      "Test-Driven Development (TDD) coverage and CI/CD pipelines"
+    ],
+    "bio": "BS Data Science student at COMSATS University Islamabad passionate about Frontend Engineering (React / Next.js / Vue). Built 1 major technical projects using React.js, TypeScript, Zustand, Styled Components."
+  },
+  {
+    "id": "INT-014",
+    "name": "Sara Ansari",
+    "track": "Cloud & DevOps Engineering",
+    "email": "sara.ansari.14@internship.edu.pk",
+    "university": "University of Engineering & Technology (UET) Lahore",
+    "degree": "BS Data Science",
+    "gpa": 3.54,
+    "graduation_year": 2026,
+    "technical_skills": [
+      "Linux",
+      "Bash Scripting",
+      "Docker",
+      "Kubernetes",
+      "Terraform",
+      "AWS (EC2, S3, IAM)",
+      "GitHub Actions",
+      "CI/CD",
+      "Problem Solving",
+      "Unit Testing"
+    ],
+    "experience_summary": "Self-Taught Passionate Engineer with active GitHub Portfolio (15+ Repos)",
+    "projects": [
+      {
+        "title": "Multi-Region Kubernetes Microservice Deployment via Terraform",
+        "desc": "Provisioned high-availability AWS EKS cluster with Terraform, automated ingress routing via Traefik, and Prometheus monitoring.",
+        "tech": [
+          "Terraform",
+          "AWS",
+          "Kubernetes",
+          "Helm",
+          "Prometheus",
+          "GitHub Actions"
+        ]
+      }
+    ],
+    "strengths": [
+      "Clear technical communication and documentation",
+      "Strong foundations in Cloud & DevOps Engineering",
+      "Passionate about scalable architecture and clean code"
+    ],
+    "areas_to_probe": [
+      "Production debugging under high-load failure scenarios",
+      "In-depth concurrency / memory management trade-offs"
+    ],
+    "bio": "BS Data Science student at University of Engineering & Technology (UET) Lahore passionate about Cloud & DevOps Engineering. Built 1 major technical projects using Linux, Bash Scripting, Docker, Kubernetes."
+  },
+  {
+    "id": "INT-015",
+    "name": "Noor Abbasi",
+    "track": "Cybersecurity & Information Assurance",
+    "email": "noor.abbasi.15@internship.edu.pk",
+    "university": "Ghulam Ishaq Khan Institute (GIKI)",
+    "degree": "BS Data Science",
+    "gpa": 3.3,
+    "graduation_year": 2025,
+    "technical_skills": [
+      "Network Security",
+      "Wireshark",
+      "Linux Administration",
+      "Python Scripting",
+      "OWASP Top 10",
+      "Burp Suite",
+      "Nmap",
+      "Unit Testing",
+      "Git"
+    ],
+    "experience_summary": "Final Year Student with 2 Hands-on Production Projects & Open Source Contributions",
+    "projects": [
+      {
+        "title": "Automated Network Threat Detection & Honeypot System",
+        "desc": "Deployed Cowrie honeypots in AWS to capture and analyze 50,000+ brute-force attempts with automated ELK stack alerting.",
+        "tech": [
+          "Python",
+          "ELK Stack",
+          "Suricata",
+          "Wireshark",
+          "Bash",
+          "Linux"
+        ]
+      }
+    ],
+    "strengths": [
+      "Eager to learn modern enterprise tech stacks",
+      "Strong foundations in Cybersecurity & Information Assurance",
+      "Passionate about scalable architecture and clean code"
+    ],
+    "areas_to_probe": [
+      "Production debugging under high-load failure scenarios",
+      "In-depth concurrency / memory management trade-offs"
+    ],
+    "bio": "BS Data Science student at Ghulam Ishaq Khan Institute (GIKI) passionate about Cybersecurity & Information Assurance. Built 1 major technical projects using Network Security, Wireshark, Linux Administration, Python Scripting."
+  },
+  {
+    "id": "INT-016",
+    "name": "Sara Qureshi",
+    "track": "Mobile App Development (Flutter / Android / iOS)",
+    "email": "sara.qureshi.16@internship.edu.pk",
+    "university": "Information Technology University (ITU) Lahore",
+    "degree": "BS Software Engineering",
+    "gpa": 3.87,
+    "graduation_year": 2024,
+    "technical_skills": [
+      "Flutter",
+      "Dart",
+      "Firebase",
+      "REST APIs",
+      "State Management (Bloc/Provider)",
+      "Git",
+      "SQLite",
+      "UI/UX",
+      "Agile / Scrum"
+    ],
+    "experience_summary": "Self-Taught Passionate Engineer with active GitHub Portfolio (15+ Repos)",
+    "projects": [
+      {
+        "title": "Campus Community & Event Management App",
+        "desc": "Cross-platform Flutter application for 15,000+ university students with real-time push notifications, QR ticketing, and offline sync.",
+        "tech": [
+          "Flutter",
+          "Dart",
+          "Firebase",
+          "Bloc",
+          "Cloud Functions",
+          "SQLite"
+        ]
+      }
+    ],
+    "strengths": [
+      "Clear technical communication and documentation",
+      "Passionate about scalable architecture and clean code",
+      "Eager to learn modern enterprise tech stacks"
+    ],
+    "areas_to_probe": [
+      "Security best practices and vulnerability mitigation",
+      "In-depth concurrency / memory management trade-offs"
+    ],
+    "bio": "BS Software Engineering student at Information Technology University (ITU) Lahore passionate about Mobile App Development (Flutter / Android / iOS). Built 1 major technical projects using Flutter, Dart, Firebase, REST APIs."
+  },
+  {
+    "id": "INT-017",
+    "name": "Usman Iqbal",
+    "track": "AI & Machine Learning",
+    "email": "usman.iqbal.17@internship.edu.pk",
+    "university": "Lahore University of Management Sciences (LUMS)",
+    "degree": "BS Computer Science",
+    "gpa": 3.63,
+    "graduation_year": 2026,
+    "technical_skills": [
+      "Python",
+      "PyTorch",
+      "Scikit-Learn",
+      "OpenCV",
+      "Pandas",
+      "NumPy",
+      "TensorFlow",
+      "Transformers",
+      "FastAPI",
+      "Problem Solving",
+      "REST APIs"
+    ],
+    "experience_summary": "University Coding Club Lead with Hackathon 1st Place Winner experience",
+    "projects": [
+      {
+        "title": "Medical Imaging Pneumonia Detector with PyTorch",
+        "desc": "Fine-tuned ResNet-50 and Vision Transformer architectures on 5,800+ chest X-ray scans with 94.2% sensitivity and Grad-CAM explainability.",
+        "tech": [
+          "PyTorch",
+          "Torchvision",
+          "FastAPI",
+          "OpenCV",
+          "Docker"
+        ]
+      }
+    ],
+    "strengths": [
+      "Passionate about scalable architecture and clean code",
+      "Rapid prototyping and self-directed problem solving",
+      "Strong foundations in AI & Machine Learning"
+    ],
+    "areas_to_probe": [
+      "In-depth concurrency / memory management trade-offs",
+      "Security best practices and vulnerability mitigation"
+    ],
+    "bio": "BS Computer Science student at Lahore University of Management Sciences (LUMS) passionate about AI & Machine Learning. Built 1 major technical projects using Python, PyTorch, Scikit-Learn, OpenCV."
+  },
+  {
+    "id": "INT-018",
+    "name": "Bilal Nawaz",
+    "track": "Data Science & Analytics",
+    "email": "bilal.nawaz.18@internship.edu.pk",
+    "university": "FAST National University of Computer & Emerging Sciences",
+    "degree": "BS Software Engineering",
+    "gpa": 3.49,
+    "graduation_year": 2026,
+    "technical_skills": [
+      "Python",
+      "Pandas",
+      "SQL",
+      "Tableau",
+      "PowerBI",
+      "Statistical Modeling",
+      "A/B Testing",
+      "Scikit-Learn",
+      "Docker",
+      "Unit Testing"
+    ],
+    "experience_summary": "Self-Taught Passionate Engineer with active GitHub Portfolio (15+ Repos)",
+    "projects": [
+      {
+        "title": "Customer Churn Prediction & Retention Dashboard",
+        "desc": "Built predictive XGBoost pipeline predicting telecom subscriber churn (ROC-AUC 0.89) with automated Tableau dashboard.",
+        "tech": [
+          "Python",
+          "Pandas",
+          "Scikit-Learn",
+          "XGBoost",
+          "Tableau",
+          "SQL"
+        ]
+      }
+    ],
+    "strengths": [
+      "Eager to learn modern enterprise tech stacks",
+      "Clear technical communication and documentation",
+      "Rapid prototyping and self-directed problem solving"
+    ],
+    "areas_to_probe": [
+      "Production debugging under high-load failure scenarios",
+      "Test-Driven Development (TDD) coverage and CI/CD pipelines"
+    ],
+    "bio": "BS Software Engineering student at FAST National University of Computer & Emerging Sciences passionate about Data Science & Analytics. Built 1 major technical projects using Python, Pandas, SQL, Tableau."
+  },
+  {
+    "id": "INT-019",
+    "name": "Farhan Bhatti",
+    "track": "Full-Stack Web Development",
+    "email": "farhan.bhatti.19@internship.edu.pk",
+    "university": "Lahore University of Management Sciences (LUMS)",
+    "degree": "BS Artificial Intelligence",
+    "gpa": 3.48,
+    "graduation_year": 2026,
+    "technical_skills": [
+      "HTML5/CSS3",
+      "JavaScript",
+      "Python",
+      "Django",
+      "PostgreSQL",
+      "Bootstrap",
+      "REST Framework",
+      "AWS S3",
+      "REST APIs",
+      "Agile / Scrum"
+    ],
+    "experience_summary": "Self-Taught Passionate Engineer with active GitHub Portfolio (15+ Repos)",
+    "projects": [
+      {
+        "title": "Collaborative Real-Time Whiteboard & Code Editor",
+        "desc": "Architected a multi-user collaborative workspace with WebSocket synchronization, operational transforms, and Monaco editor integration.",
+        "tech": [
+          "React.js",
+          "TypeScript",
+          "Node.js",
+          "Socket.io",
+          "Redis",
+          "Docker"
+        ]
+      },
+      {
+        "title": "E-Commerce Multi-Vendor Marketplace with Payment Gateways",
+        "desc": "Developed complete multi-tenant marketplace platform with Stripe checkout, inventory management, and Redis caching.",
+        "tech": [
+          "React",
+          "Express.js",
+          "MongoDB",
+          "Redis",
+          "Stripe API",
+          "AWS S3"
+        ]
+      }
+    ],
+    "strengths": [
+      "Eager to learn modern enterprise tech stacks",
+      "Strong foundations in Full-Stack Web Development",
+      "Passionate about scalable architecture and clean code"
+    ],
+    "areas_to_probe": [
+      "Production debugging under high-load failure scenarios",
+      "Test-Driven Development (TDD) coverage and CI/CD pipelines"
+    ],
+    "bio": "BS Artificial Intelligence student at Lahore University of Management Sciences (LUMS) passionate about Full-Stack Web Development. Built 2 major technical projects using HTML5/CSS3, JavaScript, Python, Django."
+  },
+  {
+    "id": "INT-020",
+    "name": "Saad Chaudhry",
+    "track": "Backend Engineering (Python / Java / Go)",
+    "email": "saad.chaudhry.20@internship.edu.pk",
+    "university": "NED University of Engineering & Technology",
+    "degree": "BS Computer Science",
+    "gpa": 3.88,
+    "graduation_year": 2025,
+    "technical_skills": [
+      "Java",
+      "Spring Boot",
+      "Hibernate",
+      "MySQL",
+      "Microservices",
+      "Kafka",
+      "Docker",
+      "JUnit",
+      "Linux",
+      "Agile / Scrum"
+    ],
+    "experience_summary": "University Coding Club Lead with Hackathon 1st Place Winner experience",
+    "projects": [
+      {
+        "title": "High-Throughput Asynchronous Task Processing Engine",
+        "desc": "Designed a distributed background task engine in Go with Redis queue backend handling 10,000 jobs/sec with graceful shutdown.",
+        "tech": [
+          "Go (Golang)",
+          "Redis",
+          "Docker",
+          "PostgreSQL",
+          "Prometheus"
+        ]
+      }
+    ],
+    "strengths": [
+      "Clear technical communication and documentation",
+      "Strong foundations in Backend Engineering (Python / Java / Go)",
+      "Passionate about scalable architecture and clean code"
+    ],
+    "areas_to_probe": [
+      "Test-Driven Development (TDD) coverage and CI/CD pipelines",
+      "In-depth concurrency / memory management trade-offs"
+    ],
+    "bio": "BS Computer Science student at NED University of Engineering & Technology passionate about Backend Engineering (Python / Java / Go). Built 1 major technical projects using Java, Spring Boot, Hibernate, MySQL."
+  },
+  {
+    "id": "INT-021",
+    "name": "Talha Sheikh",
+    "track": "Frontend Engineering (React / Next.js / Vue)",
+    "email": "talha.sheikh.21@internship.edu.pk",
+    "university": "Quaid-i-Azam University",
+    "degree": "BS Software Engineering",
+    "gpa": 3.38,
+    "graduation_year": 2026,
+    "technical_skills": [
+      "JavaScript (ES6+)",
+      "TypeScript",
+      "React.js",
+      "Next.js",
+      "Tailwind CSS",
+      "Redux Toolkit",
+      "Figma",
+      "Jest",
+      "Problem Solving",
+      "REST APIs"
+    ],
+    "experience_summary": "University Coding Club Lead with Hackathon 1st Place Winner experience",
+    "projects": [
+      {
+        "title": "Accessible Design System & Component Library",
+        "desc": "Created WCAG 2.1 AA compliant UI library with 40+ modular components, Storybook documentation, and automated visual regression testing.",
+        "tech": [
+          "React",
+          "TypeScript",
+          "Tailwind CSS",
+          "Storybook",
+          "Jest",
+          "Framer Motion"
+        ]
+      }
+    ],
+    "strengths": [
+      "Passionate about scalable architecture and clean code",
+      "Clear technical communication and documentation",
+      "Strong foundations in Frontend Engineering (React / Next.js / Vue)"
+    ],
+    "areas_to_probe": [
+      "In-depth concurrency / memory management trade-offs",
+      "Test-Driven Development (TDD) coverage and CI/CD pipelines"
+    ],
+    "bio": "BS Software Engineering student at Quaid-i-Azam University passionate about Frontend Engineering (React / Next.js / Vue). Built 1 major technical projects using JavaScript (ES6+), TypeScript, React.js, Next.js."
+  },
+  {
+    "id": "INT-022",
+    "name": "Sara Baig",
+    "track": "Cloud & DevOps Engineering",
+    "email": "sara.baig.22@internship.edu.pk",
+    "university": "National University of Sciences & Technology (NUST)",
+    "degree": "BS Computer Science",
+    "gpa": 3.43,
+    "graduation_year": 2024,
+    "technical_skills": [
+      "Linux",
+      "Kubernetes",
+      "Helm",
+      "GCP",
+      "CI/CD Pipelines",
+      "Docker",
+      "Nginx",
+      "Shell Scripting",
+      "REST APIs"
+    ],
+    "experience_summary": "Final Year Student with 2 Hands-on Production Projects & Open Source Contributions",
+    "projects": [
+      {
+        "title": "GitOps Automated CI/CD Pipeline with ArgoCD",
+        "desc": "Designed zero-downtime canary deployment pipeline for 8 microservices with automated security scanning using Trivy.",
+        "tech": [
+          "GitHub Actions",
+          "ArgoCD",
+          "Kubernetes",
+          "Docker",
+          "Trivy",
+          "Bash"
+        ]
+      },
+      {
+        "title": "Multi-Region Kubernetes Microservice Deployment via Terraform",
+        "desc": "Provisioned high-availability AWS EKS cluster with Terraform, automated ingress routing via Traefik, and Prometheus monitoring.",
+        "tech": [
+          "Terraform",
+          "AWS",
+          "Kubernetes",
+          "Helm",
+          "Prometheus",
+          "GitHub Actions"
+        ]
+      }
+    ],
+    "strengths": [
+      "Strong foundations in Cloud & DevOps Engineering",
+      "Rapid prototyping and self-directed problem solving",
+      "Clear technical communication and documentation"
+    ],
+    "areas_to_probe": [
+      "In-depth concurrency / memory management trade-offs",
+      "Production debugging under high-load failure scenarios"
+    ],
+    "bio": "BS Computer Science student at National University of Sciences & Technology (NUST) passionate about Cloud & DevOps Engineering. Built 2 major technical projects using Linux, Kubernetes, Helm, GCP."
+  },
+  {
+    "id": "INT-023",
+    "name": "Daniyal Hussain",
+    "track": "Cybersecurity & Information Assurance",
+    "email": "daniyal.hussain.23@internship.edu.pk",
+    "university": "Ghulam Ishaq Khan Institute (GIKI)",
+    "degree": "BS Data Science",
+    "gpa": 3.26,
+    "graduation_year": 2025,
+    "technical_skills": [
+      "Ethical Hacking",
+      "Metasploit",
+      "Vulnerability Assessment",
+      "Cryptography",
+      "Reverse Engineering",
+      "SIEM (Splunk)",
+      "Unit Testing",
+      "Git"
+    ],
+    "experience_summary": "Junior Developer with 6-Month Previous Web Internship Experience",
+    "projects": [
+      {
+        "title": "Automated Network Threat Detection & Honeypot System",
+        "desc": "Deployed Cowrie honeypots in AWS to capture and analyze 50,000+ brute-force attempts with automated ELK stack alerting.",
+        "tech": [
+          "Python",
+          "ELK Stack",
+          "Suricata",
+          "Wireshark",
+          "Bash",
+          "Linux"
+        ]
+      }
+    ],
+    "strengths": [
+      "Strong foundations in Cybersecurity & Information Assurance",
+      "Clear technical communication and documentation",
+      "Passionate about scalable architecture and clean code"
+    ],
+    "areas_to_probe": [
+      "Security best practices and vulnerability mitigation",
+      "Test-Driven Development (TDD) coverage and CI/CD pipelines"
+    ],
+    "bio": "BS Data Science student at Ghulam Ishaq Khan Institute (GIKI) passionate about Cybersecurity & Information Assurance. Built 1 major technical projects using Ethical Hacking, Metasploit, Vulnerability Assessment, Cryptography."
+  },
+  {
+    "id": "INT-024",
+    "name": "Rida Chaudhry",
+    "track": "Mobile App Development (Flutter / Android / iOS)",
+    "email": "rida.chaudhry.24@internship.edu.pk",
+    "university": "Lahore University of Management Sciences (LUMS)",
+    "degree": "BS Software Engineering",
+    "gpa": 3.96,
+    "graduation_year": 2024,
+    "technical_skills": [
+      "Kotlin",
+      "Android SDK",
+      "Jetpack Compose",
+      "Coroutines",
+      "Room DB",
+      "Retrofit",
+      "MVVM Architecture",
+      "Git",
+      "Linux"
+    ],
+    "experience_summary": "Junior Developer with 6-Month Previous Web Internship Experience",
+    "projects": [
+      {
+        "title": "Campus Community & Event Management App",
+        "desc": "Cross-platform Flutter application for 15,000+ university students with real-time push notifications, QR ticketing, and offline sync.",
+        "tech": [
+          "Flutter",
+          "Dart",
+          "Firebase",
+          "Bloc",
+          "Cloud Functions",
+          "SQLite"
+        ]
+      }
+    ],
+    "strengths": [
+      "Clear technical communication and documentation",
+      "Rapid prototyping and self-directed problem solving",
+      "Eager to learn modern enterprise tech stacks"
+    ],
+    "areas_to_probe": [
+      "In-depth concurrency / memory management trade-offs",
+      "Production debugging under high-load failure scenarios"
+    ],
+    "bio": "BS Software Engineering student at Lahore University of Management Sciences (LUMS) passionate about Mobile App Development (Flutter / Android / iOS). Built 1 major technical projects using Kotlin, Android SDK, Jetpack Compose, Coroutines."
+  },
+  {
+    "id": "INT-025",
+    "name": "Anum Ahmed",
+    "track": "AI & Machine Learning",
+    "email": "anum.ahmed.25@internship.edu.pk",
+    "university": "Information Technology University (ITU) Lahore",
+    "degree": "BS Software Engineering",
+    "gpa": 3.32,
+    "graduation_year": 2025,
+    "technical_skills": [
+      "Python",
+      "Machine Learning",
+      "Data Analysis",
+      "Matplotlib",
+      "Seaborn",
+      "XGBoost",
+      "Git",
+      "SQL",
+      "REST APIs",
+      "Linux"
+    ],
+    "experience_summary": "Junior Developer with 6-Month Previous Web Internship Experience",
+    "projects": [
+      {
+        "title": "Medical Imaging Pneumonia Detector with PyTorch",
+        "desc": "Fine-tuned ResNet-50 and Vision Transformer architectures on 5,800+ chest X-ray scans with 94.2% sensitivity and Grad-CAM explainability.",
+        "tech": [
+          "PyTorch",
+          "Torchvision",
+          "FastAPI",
+          "OpenCV",
+          "Docker"
+        ]
+      }
+    ],
+    "strengths": [
+      "Passionate about scalable architecture and clean code",
+      "Clear technical communication and documentation",
+      "Rapid prototyping and self-directed problem solving"
+    ],
+    "areas_to_probe": [
+      "In-depth concurrency / memory management trade-offs",
+      "Production debugging under high-load failure scenarios"
+    ],
+    "bio": "BS Software Engineering student at Information Technology University (ITU) Lahore passionate about AI & Machine Learning. Built 1 major technical projects using Python, Machine Learning, Data Analysis, Matplotlib."
+  },
+  {
+    "id": "INT-026",
+    "name": "Maryam Akram",
+    "track": "Data Science & Analytics",
+    "email": "maryam.akram.26@internship.edu.pk",
+    "university": "University of Engineering & Technology (UET) Lahore",
+    "degree": "BS Cyber Security",
+    "gpa": 3.42,
+    "graduation_year": 2024,
+    "technical_skills": [
+      "Python",
+      "Pandas",
+      "SQL",
+      "Tableau",
+      "PowerBI",
+      "Statistical Modeling",
+      "A/B Testing",
+      "Scikit-Learn",
+      "REST APIs",
+      "Linux"
+    ],
+    "experience_summary": "University Coding Club Lead with Hackathon 1st Place Winner experience",
+    "projects": [
+      {
+        "title": "Customer Churn Prediction & Retention Dashboard",
+        "desc": "Built predictive XGBoost pipeline predicting telecom subscriber churn (ROC-AUC 0.89) with automated Tableau dashboard.",
+        "tech": [
+          "Python",
+          "Pandas",
+          "Scikit-Learn",
+          "XGBoost",
+          "Tableau",
+          "SQL"
+        ]
+      },
+      {
+        "title": "Algorithmic Crypto Sentiment & Trading Backtester",
+        "desc": "Scraped 2M+ Reddit and Twitter posts with VADER and RoBERTa NLP models to backtest sentiment-driven trading strategies.",
+        "tech": [
+          "Python",
+          "HuggingFace",
+          "Pandas",
+          "Statsmodels",
+          "Plotly",
+          "PostgreSQL"
+        ]
+      }
+    ],
+    "strengths": [
+      "Passionate about scalable architecture and clean code",
+      "Clear technical communication and documentation",
+      "Eager to learn modern enterprise tech stacks"
+    ],
+    "areas_to_probe": [
+      "Test-Driven Development (TDD) coverage and CI/CD pipelines",
+      "Production debugging under high-load failure scenarios"
+    ],
+    "bio": "BS Cyber Security student at University of Engineering & Technology (UET) Lahore passionate about Data Science & Analytics. Built 2 major technical projects using Python, Pandas, SQL, Tableau."
+  },
+  {
+    "id": "INT-027",
+    "name": "Laiba Akram",
+    "track": "Full-Stack Web Development",
+    "email": "laiba.akram.27@internship.edu.pk",
+    "university": "FAST National University of Computer & Emerging Sciences",
+    "degree": "BS Data Science",
+    "gpa": 3.9,
+    "graduation_year": 2024,
+    "technical_skills": [
+      "Next.js",
+      "React.js",
+      "TypeScript",
+      "PostgreSQL",
+      "Prisma ORM",
+      "Docker",
+      "TailwindCSS",
+      "Redis",
+      "Git",
+      "Problem Solving"
+    ],
+    "experience_summary": "Undergraduate Researcher with 1 Published Workshop Paper & Kaggle Competitions",
+    "projects": [
+      {
+        "title": "Collaborative Real-Time Whiteboard & Code Editor",
+        "desc": "Architected a multi-user collaborative workspace with WebSocket synchronization, operational transforms, and Monaco editor integration.",
+        "tech": [
+          "React.js",
+          "TypeScript",
+          "Node.js",
+          "Socket.io",
+          "Redis",
+          "Docker"
+        ]
+      },
+      {
+        "title": "E-Commerce Multi-Vendor Marketplace with Payment Gateways",
+        "desc": "Developed complete multi-tenant marketplace platform with Stripe checkout, inventory management, and Redis caching.",
+        "tech": [
+          "React",
+          "Express.js",
+          "MongoDB",
+          "Redis",
+          "Stripe API",
+          "AWS S3"
+        ]
+      }
+    ],
+    "strengths": [
+      "Passionate about scalable architecture and clean code",
+      "Strong foundations in Full-Stack Web Development",
+      "Clear technical communication and documentation"
+    ],
+    "areas_to_probe": [
+      "Test-Driven Development (TDD) coverage and CI/CD pipelines",
+      "Security best practices and vulnerability mitigation"
+    ],
+    "bio": "BS Data Science student at FAST National University of Computer & Emerging Sciences passionate about Full-Stack Web Development. Built 2 major technical projects using Next.js, React.js, TypeScript, PostgreSQL."
+  },
+  {
+    "id": "INT-028",
+    "name": "Omer Sheikh",
+    "track": "Backend Engineering (Python / Java / Go)",
+    "email": "omer.sheikh.28@internship.edu.pk",
+    "university": "COMSATS University Islamabad",
+    "degree": "BS Cyber Security",
+    "gpa": 3.41,
+    "graduation_year": 2025,
+    "technical_skills": [
+      "Java",
+      "Spring Boot",
+      "Hibernate",
+      "MySQL",
+      "Microservices",
+      "Kafka",
+      "Docker",
+      "JUnit",
+      "Agile / Scrum",
+      "Problem Solving"
+    ],
+    "experience_summary": "Junior Developer with 6-Month Previous Web Internship Experience",
+    "projects": [
+      {
+        "title": "High-Throughput Asynchronous Task Processing Engine",
+        "desc": "Designed a distributed background task engine in Go with Redis queue backend handling 10,000 jobs/sec with graceful shutdown.",
+        "tech": [
+          "Go (Golang)",
+          "Redis",
+          "Docker",
+          "PostgreSQL",
+          "Prometheus"
+        ]
+      }
+    ],
+    "strengths": [
+      "Passionate about scalable architecture and clean code",
+      "Eager to learn modern enterprise tech stacks",
+      "Clear technical communication and documentation"
+    ],
+    "areas_to_probe": [
+      "Production debugging under high-load failure scenarios",
+      "Test-Driven Development (TDD) coverage and CI/CD pipelines"
+    ],
+    "bio": "BS Cyber Security student at COMSATS University Islamabad passionate about Backend Engineering (Python / Java / Go). Built 1 major technical projects using Java, Spring Boot, Hibernate, MySQL."
+  },
+  {
+    "id": "INT-029",
+    "name": "Daniyal Iqbal",
+    "track": "Frontend Engineering (React / Next.js / Vue)",
+    "email": "daniyal.iqbal.29@internship.edu.pk",
+    "university": "University of Engineering & Technology (UET) Lahore",
+    "degree": "BS Cyber Security",
+    "gpa": 3.84,
+    "graduation_year": 2025,
+    "technical_skills": [
+      "Vue.js",
+      "Nuxt.js",
+      "JavaScript",
+      "Pinia",
+      "CSS3 / SASS",
+      "HTML5",
+      "Axios",
+      "Responsive Design",
+      "Linux",
+      "Agile / Scrum"
+    ],
+    "experience_summary": "Self-Taught Passionate Engineer with active GitHub Portfolio (15+ Repos)",
+    "projects": [
+      {
+        "title": "Accessible Design System & Component Library",
+        "desc": "Created WCAG 2.1 AA compliant UI library with 40+ modular components, Storybook documentation, and automated visual regression testing.",
+        "tech": [
+          "React",
+          "TypeScript",
+          "Tailwind CSS",
+          "Storybook",
+          "Jest",
+          "Framer Motion"
+        ]
+      }
+    ],
+    "strengths": [
+      "Passionate about scalable architecture and clean code",
+      "Rapid prototyping and self-directed problem solving",
+      "Clear technical communication and documentation"
+    ],
+    "areas_to_probe": [
+      "Security best practices and vulnerability mitigation",
+      "Test-Driven Development (TDD) coverage and CI/CD pipelines"
+    ],
+    "bio": "BS Cyber Security student at University of Engineering & Technology (UET) Lahore passionate about Frontend Engineering (React / Next.js / Vue). Built 1 major technical projects using Vue.js, Nuxt.js, JavaScript, Pinia."
+  },
+  {
+    "id": "INT-030",
+    "name": "Fatima Malik",
+    "track": "Cloud & DevOps Engineering",
+    "email": "fatima.malik.30@internship.edu.pk",
+    "university": "COMSATS University Islamabad",
+    "degree": "BS Cyber Security",
+    "gpa": 3.7,
+    "graduation_year": 2026,
+    "technical_skills": [
+      "Python",
+      "Docker",
+      "Ansible",
+      "Terraform",
+      "Azure",
+      "Prometheus",
+      "Grafana",
+      "GitLab CI",
+      "Git",
+      "Linux"
+    ],
+    "experience_summary": "Junior Developer with 6-Month Previous Web Internship Experience",
+    "projects": [
+      {
+        "title": "Multi-Region Kubernetes Microservice Deployment via Terraform",
+        "desc": "Provisioned high-availability AWS EKS cluster with Terraform, automated ingress routing via Traefik, and Prometheus monitoring.",
+        "tech": [
+          "Terraform",
+          "AWS",
+          "Kubernetes",
+          "Helm",
+          "Prometheus",
+          "GitHub Actions"
+        ]
+      },
+      {
+        "title": "GitOps Automated CI/CD Pipeline with ArgoCD",
+        "desc": "Designed zero-downtime canary deployment pipeline for 8 microservices with automated security scanning using Trivy.",
+        "tech": [
+          "GitHub Actions",
+          "ArgoCD",
+          "Kubernetes",
+          "Docker",
+          "Trivy",
+          "Bash"
+        ]
+      }
+    ],
+    "strengths": [
+      "Strong foundations in Cloud & DevOps Engineering",
+      "Eager to learn modern enterprise tech stacks",
+      "Passionate about scalable architecture and clean code"
+    ],
+    "areas_to_probe": [
+      "Security best practices and vulnerability mitigation",
+      "Test-Driven Development (TDD) coverage and CI/CD pipelines"
+    ],
+    "bio": "BS Cyber Security student at COMSATS University Islamabad passionate about Cloud & DevOps Engineering. Built 2 major technical projects using Python, Docker, Ansible, Terraform."
+  },
+  {
+    "id": "INT-031",
+    "name": "Anum Malik",
+    "track": "Cybersecurity & Information Assurance",
+    "email": "anum.malik.31@internship.edu.pk",
+    "university": "Information Technology University (ITU) Lahore",
+    "degree": "BS Data Science",
+    "gpa": 3.89,
+    "graduation_year": 2026,
+    "technical_skills": [
+      "Network Security",
+      "Wireshark",
+      "Linux Administration",
+      "Python Scripting",
+      "OWASP Top 10",
+      "Burp Suite",
+      "Nmap",
+      "Problem Solving",
+      "Unit Testing"
+    ],
+    "experience_summary": "Self-Taught Passionate Engineer with active GitHub Portfolio (15+ Repos)",
+    "projects": [
+      {
+        "title": "Automated Network Threat Detection & Honeypot System",
+        "desc": "Deployed Cowrie honeypots in AWS to capture and analyze 50,000+ brute-force attempts with automated ELK stack alerting.",
+        "tech": [
+          "Python",
+          "ELK Stack",
+          "Suricata",
+          "Wireshark",
+          "Bash",
+          "Linux"
+        ]
+      }
+    ],
+    "strengths": [
+      "Rapid prototyping and self-directed problem solving",
+      "Eager to learn modern enterprise tech stacks",
+      "Clear technical communication and documentation"
+    ],
+    "areas_to_probe": [
+      "In-depth concurrency / memory management trade-offs",
+      "Security best practices and vulnerability mitigation"
+    ],
+    "bio": "BS Data Science student at Information Technology University (ITU) Lahore passionate about Cybersecurity & Information Assurance. Built 1 major technical projects using Network Security, Wireshark, Linux Administration, Python Scripting."
+  },
+  {
+    "id": "INT-032",
+    "name": "Taha Shah",
+    "track": "Mobile App Development (Flutter / Android / iOS)",
+    "email": "taha.shah.32@internship.edu.pk",
+    "university": "Lahore University of Management Sciences (LUMS)",
+    "degree": "BS Software Engineering",
+    "gpa": 3.82,
+    "graduation_year": 2026,
+    "technical_skills": [
+      "Swift",
+      "iOS SDK",
+      "SwiftUI",
+      "Combine",
+      "CoreData",
+      "URLSession",
+      "Xcode",
+      "App Store Deployment",
+      "Agile / Scrum",
+      "Git"
+    ],
+    "experience_summary": "Self-Taught Passionate Engineer with active GitHub Portfolio (15+ Repos)",
+    "projects": [
+      {
+        "title": "Campus Community & Event Management App",
+        "desc": "Cross-platform Flutter application for 15,000+ university students with real-time push notifications, QR ticketing, and offline sync.",
+        "tech": [
+          "Flutter",
+          "Dart",
+          "Firebase",
+          "Bloc",
+          "Cloud Functions",
+          "SQLite"
+        ]
+      }
+    ],
+    "strengths": [
+      "Rapid prototyping and self-directed problem solving",
+      "Passionate about scalable architecture and clean code",
+      "Clear technical communication and documentation"
+    ],
+    "areas_to_probe": [
+      "Test-Driven Development (TDD) coverage and CI/CD pipelines",
+      "Production debugging under high-load failure scenarios"
+    ],
+    "bio": "BS Software Engineering student at Lahore University of Management Sciences (LUMS) passionate about Mobile App Development (Flutter / Android / iOS). Built 1 major technical projects using Swift, iOS SDK, SwiftUI, Combine."
+  },
+  {
+    "id": "INT-033",
+    "name": "Laiba Akram",
+    "track": "AI & Machine Learning",
+    "email": "laiba.akram.33@internship.edu.pk",
+    "university": "University of Engineering & Technology (UET) Lahore",
+    "degree": "BS Cyber Security",
+    "gpa": 3.52,
+    "graduation_year": 2024,
+    "technical_skills": [
+      "Python",
+      "Deep Learning",
+      "CNNs",
+      "RNNs",
+      "PyTorch",
+      "Docker",
+      "HuggingFace",
+      "LangChain",
+      "Vector DBs",
+      "Unit Testing",
+      "Agile / Scrum"
+    ],
+    "experience_summary": "Undergraduate Researcher with 1 Published Workshop Paper & Kaggle Competitions",
+    "projects": [
+      {
+        "title": "RAG-Powered Academic Document Assistant",
+        "desc": "Built an end-to-end question-answering assistant over 500+ research papers utilizing LangChain, ChromaDB embeddings, and LLaMA-3.",
+        "tech": [
+          "Python",
+          "LangChain",
+          "ChromaDB",
+          "HuggingFace",
+          "Streamlit"
+        ]
+      },
+      {
+        "title": "Medical Imaging Pneumonia Detector with PyTorch",
+        "desc": "Fine-tuned ResNet-50 and Vision Transformer architectures on 5,800+ chest X-ray scans with 94.2% sensitivity and Grad-CAM explainability.",
+        "tech": [
+          "PyTorch",
+          "Torchvision",
+          "FastAPI",
+          "OpenCV",
+          "Docker"
+        ]
+      }
+    ],
+    "strengths": [
+      "Eager to learn modern enterprise tech stacks",
+      "Passionate about scalable architecture and clean code",
+      "Clear technical communication and documentation"
+    ],
+    "areas_to_probe": [
+      "Production debugging under high-load failure scenarios",
+      "Security best practices and vulnerability mitigation"
+    ],
+    "bio": "BS Cyber Security student at University of Engineering & Technology (UET) Lahore passionate about AI & Machine Learning. Built 2 major technical projects using Python, Deep Learning, CNNs, RNNs."
+  },
+  {
+    "id": "INT-034",
+    "name": "Hassan Malik",
+    "track": "Data Science & Analytics",
+    "email": "hassan.malik.34@internship.edu.pk",
+    "university": "COMSATS University Islamabad",
+    "degree": "BS Software Engineering",
+    "gpa": 3.38,
+    "graduation_year": 2025,
+    "technical_skills": [
+      "Python",
+      "PostgreSQL",
+      "Spark",
+      "PySpark",
+      "Data Pipelines",
+      "Snowflake",
+      "dbt",
+      "Data Modeling",
+      "Git",
+      "Linux"
+    ],
+    "experience_summary": "Self-Taught Passionate Engineer with active GitHub Portfolio (15+ Repos)",
+    "projects": [
+      {
+        "title": "Customer Churn Prediction & Retention Dashboard",
+        "desc": "Built predictive XGBoost pipeline predicting telecom subscriber churn (ROC-AUC 0.89) with automated Tableau dashboard.",
+        "tech": [
+          "Python",
+          "Pandas",
+          "Scikit-Learn",
+          "XGBoost",
+          "Tableau",
+          "SQL"
+        ]
+      }
+    ],
+    "strengths": [
+      "Rapid prototyping and self-directed problem solving",
+      "Eager to learn modern enterprise tech stacks",
+      "Strong foundations in Data Science & Analytics"
+    ],
+    "areas_to_probe": [
+      "Security best practices and vulnerability mitigation",
+      "Production debugging under high-load failure scenarios"
+    ],
+    "bio": "BS Software Engineering student at COMSATS University Islamabad passionate about Data Science & Analytics. Built 1 major technical projects using Python, PostgreSQL, Spark, PySpark."
+  },
+  {
+    "id": "INT-035",
+    "name": "Omer Hussain",
+    "track": "Full-Stack Web Development",
+    "email": "omer.hussain.35@internship.edu.pk",
+    "university": "Information Technology University (ITU) Lahore",
+    "degree": "BS Data Science",
+    "gpa": 3.2,
+    "graduation_year": 2025,
+    "technical_skills": [
+      "Next.js",
+      "React.js",
+      "TypeScript",
+      "PostgreSQL",
+      "Prisma ORM",
+      "Docker",
+      "TailwindCSS",
+      "Redis",
+      "Unit Testing"
+    ],
+    "experience_summary": "Self-Taught Passionate Engineer with active GitHub Portfolio (15+ Repos)",
+    "projects": [
+      {
+        "title": "E-Commerce Multi-Vendor Marketplace with Payment Gateways",
+        "desc": "Developed complete multi-tenant marketplace platform with Stripe checkout, inventory management, and Redis caching.",
+        "tech": [
+          "React",
+          "Express.js",
+          "MongoDB",
+          "Redis",
+          "Stripe API",
+          "AWS S3"
+        ]
+      }
+    ],
+    "strengths": [
+      "Passionate about scalable architecture and clean code",
+      "Strong foundations in Full-Stack Web Development",
+      "Rapid prototyping and self-directed problem solving"
+    ],
+    "areas_to_probe": [
+      "Test-Driven Development (TDD) coverage and CI/CD pipelines",
+      "Production debugging under high-load failure scenarios"
+    ],
+    "bio": "BS Data Science student at Information Technology University (ITU) Lahore passionate about Full-Stack Web Development. Built 1 major technical projects using Next.js, React.js, TypeScript, PostgreSQL."
+  },
+  {
+    "id": "INT-036",
+    "name": "Anum Shah",
+    "track": "Backend Engineering (Python / Java / Go)",
+    "email": "anum.shah.36@internship.edu.pk",
+    "university": "Quaid-i-Azam University",
+    "degree": "BS Cyber Security",
+    "gpa": 3.81,
+    "graduation_year": 2024,
+    "technical_skills": [
+      "Java",
+      "Spring Boot",
+      "Hibernate",
+      "MySQL",
+      "Microservices",
+      "Kafka",
+      "Docker",
+      "JUnit",
+      "Linux",
+      "REST APIs"
+    ],
+    "experience_summary": "Final Year Student with 2 Hands-on Production Projects & Open Source Contributions",
+    "projects": [
+      {
+        "title": "High-Throughput Asynchronous Task Processing Engine",
+        "desc": "Designed a distributed background task engine in Go with Redis queue backend handling 10,000 jobs/sec with graceful shutdown.",
+        "tech": [
+          "Go (Golang)",
+          "Redis",
+          "Docker",
+          "PostgreSQL",
+          "Prometheus"
+        ]
+      }
+    ],
+    "strengths": [
+      "Passionate about scalable architecture and clean code",
+      "Clear technical communication and documentation",
+      "Eager to learn modern enterprise tech stacks"
+    ],
+    "areas_to_probe": [
+      "Security best practices and vulnerability mitigation",
+      "Test-Driven Development (TDD) coverage and CI/CD pipelines"
+    ],
+    "bio": "BS Cyber Security student at Quaid-i-Azam University passionate about Backend Engineering (Python / Java / Go). Built 1 major technical projects using Java, Spring Boot, Hibernate, MySQL."
+  },
+  {
+    "id": "INT-037",
+    "name": "Fatima Abbasi",
+    "track": "Frontend Engineering (React / Next.js / Vue)",
+    "email": "fatima.abbasi.37@internship.edu.pk",
+    "university": "Ghulam Ishaq Khan Institute (GIKI)",
+    "degree": "BS Cyber Security",
+    "gpa": 3.59,
+    "graduation_year": 2025,
+    "technical_skills": [
+      "React.js",
+      "TypeScript",
+      "Zustand",
+      "Styled Components",
+      "GraphQL",
+      "Storybook",
+      "Webpack / Vite",
+      "Docker",
+      "Problem Solving"
+    ],
+    "experience_summary": "Self-Taught Passionate Engineer with active GitHub Portfolio (15+ Repos)",
+    "projects": [
+      {
+        "title": "Accessible Design System & Component Library",
+        "desc": "Created WCAG 2.1 AA compliant UI library with 40+ modular components, Storybook documentation, and automated visual regression testing.",
+        "tech": [
+          "React",
+          "TypeScript",
+          "Tailwind CSS",
+          "Storybook",
+          "Jest",
+          "Framer Motion"
+        ]
+      }
+    ],
+    "strengths": [
+      "Rapid prototyping and self-directed problem solving",
+      "Passionate about scalable architecture and clean code",
+      "Strong foundations in Frontend Engineering (React / Next.js / Vue)"
+    ],
+    "areas_to_probe": [
+      "In-depth concurrency / memory management trade-offs",
+      "Production debugging under high-load failure scenarios"
+    ],
+    "bio": "BS Cyber Security student at Ghulam Ishaq Khan Institute (GIKI) passionate about Frontend Engineering (React / Next.js / Vue). Built 1 major technical projects using React.js, TypeScript, Zustand, Styled Components."
+  },
+  {
+    "id": "INT-038",
+    "name": "Ahmed Bhatti",
+    "track": "Cloud & DevOps Engineering",
+    "email": "ahmed.bhatti.38@internship.edu.pk",
+    "university": "Lahore University of Management Sciences (LUMS)",
+    "degree": "BS Data Science",
+    "gpa": 3.42,
+    "graduation_year": 2025,
+    "technical_skills": [
+      "Python",
+      "Docker",
+      "Ansible",
+      "Terraform",
+      "Azure",
+      "Prometheus",
+      "Grafana",
+      "GitLab CI",
+      "Unit Testing",
+      "Agile / Scrum"
+    ],
+    "experience_summary": "Final Year Student with 2 Hands-on Production Projects & Open Source Contributions",
+    "projects": [
+      {
+        "title": "Multi-Region Kubernetes Microservice Deployment via Terraform",
+        "desc": "Provisioned high-availability AWS EKS cluster with Terraform, automated ingress routing via Traefik, and Prometheus monitoring.",
+        "tech": [
+          "Terraform",
+          "AWS",
+          "Kubernetes",
+          "Helm",
+          "Prometheus",
+          "GitHub Actions"
+        ]
+      },
+      {
+        "title": "GitOps Automated CI/CD Pipeline with ArgoCD",
+        "desc": "Designed zero-downtime canary deployment pipeline for 8 microservices with automated security scanning using Trivy.",
+        "tech": [
+          "GitHub Actions",
+          "ArgoCD",
+          "Kubernetes",
+          "Docker",
+          "Trivy",
+          "Bash"
+        ]
+      }
+    ],
+    "strengths": [
+      "Eager to learn modern enterprise tech stacks",
+      "Strong foundations in Cloud & DevOps Engineering",
+      "Rapid prototyping and self-directed problem solving"
+    ],
+    "areas_to_probe": [
+      "Production debugging under high-load failure scenarios",
+      "Test-Driven Development (TDD) coverage and CI/CD pipelines"
+    ],
+    "bio": "BS Data Science student at Lahore University of Management Sciences (LUMS) passionate about Cloud & DevOps Engineering. Built 2 major technical projects using Python, Docker, Ansible, Terraform."
+  },
+  {
+    "id": "INT-039",
+    "name": "Bilal Ahmed",
+    "track": "Cybersecurity & Information Assurance",
+    "email": "bilal.ahmed.39@internship.edu.pk",
+    "university": "National University of Sciences & Technology (NUST)",
+    "degree": "BS Software Engineering",
+    "gpa": 3.32,
+    "graduation_year": 2024,
+    "technical_skills": [
+      "Application Security",
+      "SAST / DAST",
+      "SOC Operations",
+      "Penetration Testing",
+      "Security Auditing",
+      "Git",
+      "Linux",
+      "Unit Testing"
+    ],
+    "experience_summary": "Final Year Student with 2 Hands-on Production Projects & Open Source Contributions",
+    "projects": [
+      {
+        "title": "Automated Network Threat Detection & Honeypot System",
+        "desc": "Deployed Cowrie honeypots in AWS to capture and analyze 50,000+ brute-force attempts with automated ELK stack alerting.",
+        "tech": [
+          "Python",
+          "ELK Stack",
+          "Suricata",
+          "Wireshark",
+          "Bash",
+          "Linux"
+        ]
+      }
+    ],
+    "strengths": [
+      "Eager to learn modern enterprise tech stacks",
+      "Rapid prototyping and self-directed problem solving",
+      "Passionate about scalable architecture and clean code"
+    ],
+    "areas_to_probe": [
+      "Test-Driven Development (TDD) coverage and CI/CD pipelines",
+      "Production debugging under high-load failure scenarios"
+    ],
+    "bio": "BS Software Engineering student at National University of Sciences & Technology (NUST) passionate about Cybersecurity & Information Assurance. Built 1 major technical projects using Application Security, SAST / DAST, SOC Operations, Penetration Testing."
+  },
+  {
+    "id": "INT-040",
+    "name": "Fatima Nawaz",
+    "track": "Mobile App Development (Flutter / Android / iOS)",
+    "email": "fatima.nawaz.40@internship.edu.pk",
+    "university": "Institute of Business Administration (IBA) Karachi",
+    "degree": "BS Computer Science",
+    "gpa": 3.8,
+    "graduation_year": 2024,
+    "technical_skills": [
+      "Kotlin",
+      "Android SDK",
+      "Jetpack Compose",
+      "Coroutines",
+      "Room DB",
+      "Retrofit",
+      "MVVM Architecture",
+      "Git",
+      "Docker"
+    ],
+    "experience_summary": "University Coding Club Lead with Hackathon 1st Place Winner experience",
+    "projects": [
+      {
+        "title": "Campus Community & Event Management App",
+        "desc": "Cross-platform Flutter application for 15,000+ university students with real-time push notifications, QR ticketing, and offline sync.",
+        "tech": [
+          "Flutter",
+          "Dart",
+          "Firebase",
+          "Bloc",
+          "Cloud Functions",
+          "SQLite"
+        ]
+      }
+    ],
+    "strengths": [
+      "Passionate about scalable architecture and clean code",
+      "Eager to learn modern enterprise tech stacks",
+      "Clear technical communication and documentation"
+    ],
+    "areas_to_probe": [
+      "Production debugging under high-load failure scenarios",
+      "In-depth concurrency / memory management trade-offs"
+    ],
+    "bio": "BS Computer Science student at Institute of Business Administration (IBA) Karachi passionate about Mobile App Development (Flutter / Android / iOS). Built 1 major technical projects using Kotlin, Android SDK, Jetpack Compose, Coroutines."
+  },
+  {
+    "id": "INT-041",
+    "name": "Daniyal Farooq",
+    "track": "AI & Machine Learning",
+    "email": "daniyal.farooq.41@internship.edu.pk",
+    "university": "FAST National University of Computer & Emerging Sciences",
+    "degree": "BS Artificial Intelligence",
+    "gpa": 3.86,
+    "graduation_year": 2026,
+    "technical_skills": [
+      "Python",
+      "PyTorch",
+      "Scikit-Learn",
+      "OpenCV",
+      "Pandas",
+      "NumPy",
+      "TensorFlow",
+      "Transformers",
+      "FastAPI",
+      "Unit Testing",
+      "Docker"
+    ],
+    "experience_summary": "University Coding Club Lead with Hackathon 1st Place Winner experience",
+    "projects": [
+      {
+        "title": "RAG-Powered Academic Document Assistant",
+        "desc": "Built an end-to-end question-answering assistant over 500+ research papers utilizing LangChain, ChromaDB embeddings, and LLaMA-3.",
+        "tech": [
+          "Python",
+          "LangChain",
+          "ChromaDB",
+          "HuggingFace",
+          "Streamlit"
+        ]
+      }
+    ],
+    "strengths": [
+      "Passionate about scalable architecture and clean code",
+      "Clear technical communication and documentation",
+      "Strong foundations in AI & Machine Learning"
+    ],
+    "areas_to_probe": [
+      "Test-Driven Development (TDD) coverage and CI/CD pipelines",
+      "In-depth concurrency / memory management trade-offs"
+    ],
+    "bio": "BS Artificial Intelligence student at FAST National University of Computer & Emerging Sciences passionate about AI & Machine Learning. Built 1 major technical projects using Python, PyTorch, Scikit-Learn, OpenCV."
+  },
+  {
+    "id": "INT-042",
+    "name": "Anum Shah",
+    "track": "Data Science & Analytics",
+    "email": "anum.shah.42@internship.edu.pk",
+    "university": "Information Technology University (ITU) Lahore",
+    "degree": "BS Computer Science",
+    "gpa": 3.51,
+    "graduation_year": 2025,
+    "technical_skills": [
+      "Python",
+      "PostgreSQL",
+      "Spark",
+      "PySpark",
+      "Data Pipelines",
+      "Snowflake",
+      "dbt",
+      "Data Modeling",
+      "Unit Testing",
+      "Agile / Scrum"
+    ],
+    "experience_summary": "Junior Developer with 6-Month Previous Web Internship Experience",
+    "projects": [
+      {
+        "title": "Algorithmic Crypto Sentiment & Trading Backtester",
+        "desc": "Scraped 2M+ Reddit and Twitter posts with VADER and RoBERTa NLP models to backtest sentiment-driven trading strategies.",
+        "tech": [
+          "Python",
+          "HuggingFace",
+          "Pandas",
+          "Statsmodels",
+          "Plotly",
+          "PostgreSQL"
+        ]
+      }
+    ],
+    "strengths": [
+      "Eager to learn modern enterprise tech stacks",
+      "Clear technical communication and documentation",
+      "Passionate about scalable architecture and clean code"
+    ],
+    "areas_to_probe": [
+      "Security best practices and vulnerability mitigation",
+      "Production debugging under high-load failure scenarios"
+    ],
+    "bio": "BS Computer Science student at Information Technology University (ITU) Lahore passionate about Data Science & Analytics. Built 1 major technical projects using Python, PostgreSQL, Spark, PySpark."
+  },
+  {
+    "id": "INT-043",
+    "name": "Sara Javed",
+    "track": "Full-Stack Web Development",
+    "email": "sara.javed.43@internship.edu.pk",
+    "university": "COMSATS University Islamabad",
+    "degree": "BS Artificial Intelligence",
+    "gpa": 3.86,
+    "graduation_year": 2024,
+    "technical_skills": [
+      "Next.js",
+      "React.js",
+      "TypeScript",
+      "PostgreSQL",
+      "Prisma ORM",
+      "Docker",
+      "TailwindCSS",
+      "Redis",
+      "Agile / Scrum",
+      "Linux"
+    ],
+    "experience_summary": "Undergraduate Researcher with 1 Published Workshop Paper & Kaggle Competitions",
+    "projects": [
+      {
+        "title": "E-Commerce Multi-Vendor Marketplace with Payment Gateways",
+        "desc": "Developed complete multi-tenant marketplace platform with Stripe checkout, inventory management, and Redis caching.",
+        "tech": [
+          "React",
+          "Express.js",
+          "MongoDB",
+          "Redis",
+          "Stripe API",
+          "AWS S3"
+        ]
+      },
+      {
+        "title": "FinTech Micro-Investment & Budgeting Web App",
+        "desc": "Engineered full-stack personal finance application with Plaid API integration, automated expense categorization, and JWT authentication.",
+        "tech": [
+          "Next.js",
+          "PostgreSQL",
+          "Prisma",
+          "TailwindCSS",
+          "Chart.js",
+          "Jest"
+        ]
+      }
+    ],
+    "strengths": [
+      "Strong foundations in Full-Stack Web Development",
+      "Passionate about scalable architecture and clean code",
+      "Rapid prototyping and self-directed problem solving"
+    ],
+    "areas_to_probe": [
+      "Production debugging under high-load failure scenarios",
+      "Security best practices and vulnerability mitigation"
+    ],
+    "bio": "BS Artificial Intelligence student at COMSATS University Islamabad passionate about Full-Stack Web Development. Built 2 major technical projects using Next.js, React.js, TypeScript, PostgreSQL."
+  },
+  {
+    "id": "INT-044",
+    "name": "Usman Ansari",
+    "track": "Backend Engineering (Python / Java / Go)",
+    "email": "usman.ansari.44@internship.edu.pk",
+    "university": "COMSATS University Islamabad",
+    "degree": "BS Artificial Intelligence",
+    "gpa": 3.38,
+    "graduation_year": 2026,
+    "technical_skills": [
+      "Go (Golang)",
+      "gRPC",
+      "PostgreSQL",
+      "Docker",
+      "Kubernetes",
+      "Redis",
+      "Goroutines",
+      "REST APIs"
+    ],
+    "experience_summary": "Final Year Student with 2 Hands-on Production Projects & Open Source Contributions",
+    "projects": [
+      {
+        "title": "High-Throughput Asynchronous Task Processing Engine",
+        "desc": "Designed a distributed background task engine in Go with Redis queue backend handling 10,000 jobs/sec with graceful shutdown.",
+        "tech": [
+          "Go (Golang)",
+          "Redis",
+          "Docker",
+          "PostgreSQL",
+          "Prometheus"
+        ]
+      }
+    ],
+    "strengths": [
+      "Rapid prototyping and self-directed problem solving",
+      "Passionate about scalable architecture and clean code",
+      "Eager to learn modern enterprise tech stacks"
+    ],
+    "areas_to_probe": [
+      "Production debugging under high-load failure scenarios",
+      "Test-Driven Development (TDD) coverage and CI/CD pipelines"
+    ],
+    "bio": "BS Artificial Intelligence student at COMSATS University Islamabad passionate about Backend Engineering (Python / Java / Go). Built 1 major technical projects using Go (Golang), gRPC, PostgreSQL, Docker."
+  },
+  {
+    "id": "INT-045",
+    "name": "Khadija Qureshi",
+    "track": "Frontend Engineering (React / Next.js / Vue)",
+    "email": "khadija.qureshi.45@internship.edu.pk",
+    "university": "Information Technology University (ITU) Lahore",
+    "degree": "BS Computer Science",
+    "gpa": 3.23,
+    "graduation_year": 2024,
+    "technical_skills": [
+      "Vue.js",
+      "Nuxt.js",
+      "JavaScript",
+      "Pinia",
+      "CSS3 / SASS",
+      "HTML5",
+      "Axios",
+      "Responsive Design",
+      "Problem Solving",
+      "Linux"
+    ],
+    "experience_summary": "Self-Taught Passionate Engineer with active GitHub Portfolio (15+ Repos)",
+    "projects": [
+      {
+        "title": "Accessible Design System & Component Library",
+        "desc": "Created WCAG 2.1 AA compliant UI library with 40+ modular components, Storybook documentation, and automated visual regression testing.",
+        "tech": [
+          "React",
+          "TypeScript",
+          "Tailwind CSS",
+          "Storybook",
+          "Jest",
+          "Framer Motion"
+        ]
+      }
+    ],
+    "strengths": [
+      "Eager to learn modern enterprise tech stacks",
+      "Clear technical communication and documentation",
+      "Rapid prototyping and self-directed problem solving"
+    ],
+    "areas_to_probe": [
+      "Test-Driven Development (TDD) coverage and CI/CD pipelines",
+      "Production debugging under high-load failure scenarios"
+    ],
+    "bio": "BS Computer Science student at Information Technology University (ITU) Lahore passionate about Frontend Engineering (React / Next.js / Vue). Built 1 major technical projects using Vue.js, Nuxt.js, JavaScript, Pinia."
+  },
+  {
+    "id": "INT-046",
+    "name": "Farhan Abbasi",
+    "track": "Cloud & DevOps Engineering",
+    "email": "farhan.abbasi.46@internship.edu.pk",
+    "university": "COMSATS University Islamabad",
+    "degree": "BS Artificial Intelligence",
+    "gpa": 3.36,
+    "graduation_year": 2024,
+    "technical_skills": [
+      "Linux",
+      "Kubernetes",
+      "Helm",
+      "GCP",
+      "CI/CD Pipelines",
+      "Docker",
+      "Nginx",
+      "Shell Scripting",
+      "REST APIs"
+    ],
+    "experience_summary": "Junior Developer with 6-Month Previous Web Internship Experience",
+    "projects": [
+      {
+        "title": "Multi-Region Kubernetes Microservice Deployment via Terraform",
+        "desc": "Provisioned high-availability AWS EKS cluster with Terraform, automated ingress routing via Traefik, and Prometheus monitoring.",
+        "tech": [
+          "Terraform",
+          "AWS",
+          "Kubernetes",
+          "Helm",
+          "Prometheus",
+          "GitHub Actions"
+        ]
+      }
+    ],
+    "strengths": [
+      "Rapid prototyping and self-directed problem solving",
+      "Passionate about scalable architecture and clean code",
+      "Eager to learn modern enterprise tech stacks"
+    ],
+    "areas_to_probe": [
+      "Test-Driven Development (TDD) coverage and CI/CD pipelines",
+      "In-depth concurrency / memory management trade-offs"
+    ],
+    "bio": "BS Artificial Intelligence student at COMSATS University Islamabad passionate about Cloud & DevOps Engineering. Built 1 major technical projects using Linux, Kubernetes, Helm, GCP."
+  },
+  {
+    "id": "INT-047",
+    "name": "Waleed Siddiqui",
+    "track": "Cybersecurity & Information Assurance",
+    "email": "waleed.siddiqui.47@internship.edu.pk",
+    "university": "COMSATS University Islamabad",
+    "degree": "BS Software Engineering",
+    "gpa": 3.45,
+    "graduation_year": 2025,
+    "technical_skills": [
+      "Network Security",
+      "Wireshark",
+      "Linux Administration",
+      "Python Scripting",
+      "OWASP Top 10",
+      "Burp Suite",
+      "Nmap",
+      "Problem Solving",
+      "Docker"
+    ],
+    "experience_summary": "Final Year Student with 2 Hands-on Production Projects & Open Source Contributions",
+    "projects": [
+      {
+        "title": "Automated Network Threat Detection & Honeypot System",
+        "desc": "Deployed Cowrie honeypots in AWS to capture and analyze 50,000+ brute-force attempts with automated ELK stack alerting.",
+        "tech": [
+          "Python",
+          "ELK Stack",
+          "Suricata",
+          "Wireshark",
+          "Bash",
+          "Linux"
+        ]
+      }
+    ],
+    "strengths": [
+      "Strong foundations in Cybersecurity & Information Assurance",
+      "Clear technical communication and documentation",
+      "Passionate about scalable architecture and clean code"
+    ],
+    "areas_to_probe": [
+      "Production debugging under high-load failure scenarios",
+      "Test-Driven Development (TDD) coverage and CI/CD pipelines"
+    ],
+    "bio": "BS Software Engineering student at COMSATS University Islamabad passionate about Cybersecurity & Information Assurance. Built 1 major technical projects using Network Security, Wireshark, Linux Administration, Python Scripting."
+  },
+  {
+    "id": "INT-048",
+    "name": "Anum Qureshi",
+    "track": "Mobile App Development (Flutter / Android / iOS)",
+    "email": "anum.qureshi.48@internship.edu.pk",
+    "university": "FAST National University of Computer & Emerging Sciences",
+    "degree": "BS Computer Science",
+    "gpa": 3.63,
+    "graduation_year": 2025,
+    "technical_skills": [
+      "Kotlin",
+      "Android SDK",
+      "Jetpack Compose",
+      "Coroutines",
+      "Room DB",
+      "Retrofit",
+      "MVVM Architecture",
+      "Agile / Scrum",
+      "REST APIs"
+    ],
+    "experience_summary": "Undergraduate Researcher with 1 Published Workshop Paper & Kaggle Competitions",
+    "projects": [
+      {
+        "title": "Campus Community & Event Management App",
+        "desc": "Cross-platform Flutter application for 15,000+ university students with real-time push notifications, QR ticketing, and offline sync.",
+        "tech": [
+          "Flutter",
+          "Dart",
+          "Firebase",
+          "Bloc",
+          "Cloud Functions",
+          "SQLite"
+        ]
+      }
+    ],
+    "strengths": [
+      "Passionate about scalable architecture and clean code",
+      "Strong foundations in Mobile App Development (Flutter / Android / iOS)",
+      "Eager to learn modern enterprise tech stacks"
+    ],
+    "areas_to_probe": [
+      "Security best practices and vulnerability mitigation",
+      "Production debugging under high-load failure scenarios"
+    ],
+    "bio": "BS Computer Science student at FAST National University of Computer & Emerging Sciences passionate about Mobile App Development (Flutter / Android / iOS). Built 1 major technical projects using Kotlin, Android SDK, Jetpack Compose, Coroutines."
+  },
+  {
+    "id": "INT-049",
+    "name": "Bilal Javed",
+    "track": "AI & Machine Learning",
+    "email": "bilal.javed.49@internship.edu.pk",
+    "university": "National University of Sciences & Technology (NUST)",
+    "degree": "BS Software Engineering",
+    "gpa": 3.27,
+    "graduation_year": 2026,
+    "technical_skills": [
+      "Python",
+      "Machine Learning",
+      "Data Analysis",
+      "Matplotlib",
+      "Seaborn",
+      "XGBoost",
+      "Git",
+      "SQL",
+      "Linux"
+    ],
+    "experience_summary": "Self-Taught Passionate Engineer with active GitHub Portfolio (15+ Repos)",
+    "projects": [
+      {
+        "title": "Real-time Autonomous Drone Navigation Simulator",
+        "desc": "Trained a Deep Q-Network (DQN) reinforcement learning agent in AirSim for obstacle avoidance in cluttered 3D environments.",
+        "tech": [
+          "Python",
+          "PyTorch",
+          "Gymnasium",
+          "NumPy",
+          "Matplotlib"
+        ]
+      }
+    ],
+    "strengths": [
+      "Eager to learn modern enterprise tech stacks",
+      "Rapid prototyping and self-directed problem solving",
+      "Clear technical communication and documentation"
+    ],
+    "areas_to_probe": [
+      "Security best practices and vulnerability mitigation",
+      "Production debugging under high-load failure scenarios"
+    ],
+    "bio": "BS Software Engineering student at National University of Sciences & Technology (NUST) passionate about AI & Machine Learning. Built 1 major technical projects using Python, Machine Learning, Data Analysis, Matplotlib."
+  },
+  {
+    "id": "INT-050",
+    "name": "Kinza Abbasi",
+    "track": "Data Science & Analytics",
+    "email": "kinza.abbasi.50@internship.edu.pk",
+    "university": "COMSATS University Islamabad",
+    "degree": "BS Cyber Security",
+    "gpa": 3.97,
+    "graduation_year": 2025,
+    "technical_skills": [
+      "Python",
+      "PostgreSQL",
+      "Spark",
+      "PySpark",
+      "Data Pipelines",
+      "Snowflake",
+      "dbt",
+      "Data Modeling",
+      "Docker",
+      "Git"
+    ],
+    "experience_summary": "Junior Developer with 6-Month Previous Web Internship Experience",
+    "projects": [
+      {
+        "title": "Customer Churn Prediction & Retention Dashboard",
+        "desc": "Built predictive XGBoost pipeline predicting telecom subscriber churn (ROC-AUC 0.89) with automated Tableau dashboard.",
+        "tech": [
+          "Python",
+          "Pandas",
+          "Scikit-Learn",
+          "XGBoost",
+          "Tableau",
+          "SQL"
+        ]
+      }
+    ],
+    "strengths": [
+      "Clear technical communication and documentation",
+      "Strong foundations in Data Science & Analytics",
+      "Passionate about scalable architecture and clean code"
+    ],
+    "areas_to_probe": [
+      "Production debugging under high-load failure scenarios",
+      "In-depth concurrency / memory management trade-offs"
+    ],
+    "bio": "BS Cyber Security student at COMSATS University Islamabad passionate about Data Science & Analytics. Built 1 major technical projects using Python, PostgreSQL, Spark, PySpark."
+  },
+  {
+    "id": "INT-051",
+    "name": "Noor Malik",
+    "track": "Full-Stack Web Development",
+    "email": "noor.malik.51@internship.edu.pk",
+    "university": "Ghulam Ishaq Khan Institute (GIKI)",
+    "degree": "BS Computer Science",
+    "gpa": 3.49,
+    "graduation_year": 2026,
+    "technical_skills": [
+      "HTML5/CSS3",
+      "JavaScript",
+      "Python",
+      "Django",
+      "PostgreSQL",
+      "Bootstrap",
+      "REST Framework",
+      "AWS S3",
+      "Agile / Scrum",
+      "REST APIs"
+    ],
+    "experience_summary": "Undergraduate Researcher with 1 Published Workshop Paper & Kaggle Competitions",
+    "projects": [
+      {
+        "title": "Collaborative Real-Time Whiteboard & Code Editor",
+        "desc": "Architected a multi-user collaborative workspace with WebSocket synchronization, operational transforms, and Monaco editor integration.",
+        "tech": [
+          "React.js",
+          "TypeScript",
+          "Node.js",
+          "Socket.io",
+          "Redis",
+          "Docker"
+        ]
+      }
+    ],
+    "strengths": [
+      "Clear technical communication and documentation",
+      "Passionate about scalable architecture and clean code",
+      "Strong foundations in Full-Stack Web Development"
+    ],
+    "areas_to_probe": [
+      "Production debugging under high-load failure scenarios",
+      "Security best practices and vulnerability mitigation"
+    ],
+    "bio": "BS Computer Science student at Ghulam Ishaq Khan Institute (GIKI) passionate about Full-Stack Web Development. Built 1 major technical projects using HTML5/CSS3, JavaScript, Python, Django."
+  },
+  {
+    "id": "INT-052",
+    "name": "Sana Javed",
+    "track": "Backend Engineering (Python / Java / Go)",
+    "email": "sana.javed.52@internship.edu.pk",
+    "university": "Lahore University of Management Sciences (LUMS)",
+    "degree": "BS Data Science",
+    "gpa": 3.25,
+    "graduation_year": 2024,
+    "technical_skills": [
+      "Go (Golang)",
+      "gRPC",
+      "PostgreSQL",
+      "Docker",
+      "Kubernetes",
+      "Redis",
+      "Goroutines",
+      "REST APIs",
+      "Linux"
+    ],
+    "experience_summary": "Final Year Student with 2 Hands-on Production Projects & Open Source Contributions",
+    "projects": [
+      {
+        "title": "High-Throughput Asynchronous Task Processing Engine",
+        "desc": "Designed a distributed background task engine in Go with Redis queue backend handling 10,000 jobs/sec with graceful shutdown.",
+        "tech": [
+          "Go (Golang)",
+          "Redis",
+          "Docker",
+          "PostgreSQL",
+          "Prometheus"
+        ]
+      }
+    ],
+    "strengths": [
+      "Rapid prototyping and self-directed problem solving",
+      "Clear technical communication and documentation",
+      "Passionate about scalable architecture and clean code"
+    ],
+    "areas_to_probe": [
+      "Test-Driven Development (TDD) coverage and CI/CD pipelines",
+      "Production debugging under high-load failure scenarios"
+    ],
+    "bio": "BS Data Science student at Lahore University of Management Sciences (LUMS) passionate about Backend Engineering (Python / Java / Go). Built 1 major technical projects using Go (Golang), gRPC, PostgreSQL, Docker."
+  },
+  {
+    "id": "INT-053",
+    "name": "Zainab Abbasi",
+    "track": "Frontend Engineering (React / Next.js / Vue)",
+    "email": "zainab.abbasi.53@internship.edu.pk",
+    "university": "COMSATS University Islamabad",
+    "degree": "BS Data Science",
+    "gpa": 3.93,
+    "graduation_year": 2026,
+    "technical_skills": [
+      "React.js",
+      "TypeScript",
+      "Zustand",
+      "Styled Components",
+      "GraphQL",
+      "Storybook",
+      "Webpack / Vite",
+      "Agile / Scrum",
+      "Unit Testing"
+    ],
+    "experience_summary": "Self-Taught Passionate Engineer with active GitHub Portfolio (15+ Repos)",
+    "projects": [
+      {
+        "title": "Accessible Design System & Component Library",
+        "desc": "Created WCAG 2.1 AA compliant UI library with 40+ modular components, Storybook documentation, and automated visual regression testing.",
+        "tech": [
+          "React",
+          "TypeScript",
+          "Tailwind CSS",
+          "Storybook",
+          "Jest",
+          "Framer Motion"
+        ]
+      }
+    ],
+    "strengths": [
+      "Clear technical communication and documentation",
+      "Eager to learn modern enterprise tech stacks",
+      "Strong foundations in Frontend Engineering (React / Next.js / Vue)"
+    ],
+    "areas_to_probe": [
+      "In-depth concurrency / memory management trade-offs",
+      "Security best practices and vulnerability mitigation"
+    ],
+    "bio": "BS Data Science student at COMSATS University Islamabad passionate about Frontend Engineering (React / Next.js / Vue). Built 1 major technical projects using React.js, TypeScript, Zustand, Styled Components."
+  },
+  {
+    "id": "INT-054",
+    "name": "Eman Javed",
+    "track": "Cloud & DevOps Engineering",
+    "email": "eman.javed.54@internship.edu.pk",
+    "university": "Institute of Business Administration (IBA) Karachi",
+    "degree": "BS Computer Science",
+    "gpa": 3.98,
+    "graduation_year": 2026,
+    "technical_skills": [
+      "Python",
+      "Docker",
+      "Ansible",
+      "Terraform",
+      "Azure",
+      "Prometheus",
+      "Grafana",
+      "GitLab CI",
+      "Git"
+    ],
+    "experience_summary": "University Coding Club Lead with Hackathon 1st Place Winner experience",
+    "projects": [
+      {
+        "title": "GitOps Automated CI/CD Pipeline with ArgoCD",
+        "desc": "Designed zero-downtime canary deployment pipeline for 8 microservices with automated security scanning using Trivy.",
+        "tech": [
+          "GitHub Actions",
+          "ArgoCD",
+          "Kubernetes",
+          "Docker",
+          "Trivy",
+          "Bash"
+        ]
+      }
+    ],
+    "strengths": [
+      "Passionate about scalable architecture and clean code",
+      "Clear technical communication and documentation",
+      "Strong foundations in Cloud & DevOps Engineering"
+    ],
+    "areas_to_probe": [
+      "Security best practices and vulnerability mitigation",
+      "Test-Driven Development (TDD) coverage and CI/CD pipelines"
+    ],
+    "bio": "BS Computer Science student at Institute of Business Administration (IBA) Karachi passionate about Cloud & DevOps Engineering. Built 1 major technical projects using Python, Docker, Ansible, Terraform."
+  },
+  {
+    "id": "INT-055",
+    "name": "Waleed Qureshi",
+    "track": "Cybersecurity & Information Assurance",
+    "email": "waleed.qureshi.55@internship.edu.pk",
+    "university": "FAST National University of Computer & Emerging Sciences",
+    "degree": "BS Data Science",
+    "gpa": 3.44,
+    "graduation_year": 2025,
+    "technical_skills": [
+      "Ethical Hacking",
+      "Metasploit",
+      "Vulnerability Assessment",
+      "Cryptography",
+      "Reverse Engineering",
+      "SIEM (Splunk)",
+      "Problem Solving",
+      "Git"
+    ],
+    "experience_summary": "Self-Taught Passionate Engineer with active GitHub Portfolio (15+ Repos)",
+    "projects": [
+      {
+        "title": "Automated Network Threat Detection & Honeypot System",
+        "desc": "Deployed Cowrie honeypots in AWS to capture and analyze 50,000+ brute-force attempts with automated ELK stack alerting.",
+        "tech": [
+          "Python",
+          "ELK Stack",
+          "Suricata",
+          "Wireshark",
+          "Bash",
+          "Linux"
+        ]
+      }
+    ],
+    "strengths": [
+      "Passionate about scalable architecture and clean code",
+      "Clear technical communication and documentation",
+      "Eager to learn modern enterprise tech stacks"
+    ],
+    "areas_to_probe": [
+      "Security best practices and vulnerability mitigation",
+      "Test-Driven Development (TDD) coverage and CI/CD pipelines"
+    ],
+    "bio": "BS Data Science student at FAST National University of Computer & Emerging Sciences passionate about Cybersecurity & Information Assurance. Built 1 major technical projects using Ethical Hacking, Metasploit, Vulnerability Assessment, Cryptography."
+  },
+  {
+    "id": "INT-056",
+    "name": "Ayesha Abbasi",
+    "track": "Mobile App Development (Flutter / Android / iOS)",
+    "email": "ayesha.abbasi.56@internship.edu.pk",
+    "university": "FAST National University of Computer & Emerging Sciences",
+    "degree": "BS Artificial Intelligence",
+    "gpa": 3.36,
+    "graduation_year": 2024,
+    "technical_skills": [
+      "Kotlin",
+      "Android SDK",
+      "Jetpack Compose",
+      "Coroutines",
+      "Room DB",
+      "Retrofit",
+      "MVVM Architecture",
+      "Unit Testing",
+      "Docker"
+    ],
+    "experience_summary": "Self-Taught Passionate Engineer with active GitHub Portfolio (15+ Repos)",
+    "projects": [
+      {
+        "title": "Campus Community & Event Management App",
+        "desc": "Cross-platform Flutter application for 15,000+ university students with real-time push notifications, QR ticketing, and offline sync.",
+        "tech": [
+          "Flutter",
+          "Dart",
+          "Firebase",
+          "Bloc",
+          "Cloud Functions",
+          "SQLite"
+        ]
+      }
+    ],
+    "strengths": [
+      "Strong foundations in Mobile App Development (Flutter / Android / iOS)",
+      "Rapid prototyping and self-directed problem solving",
+      "Clear technical communication and documentation"
+    ],
+    "areas_to_probe": [
+      "Test-Driven Development (TDD) coverage and CI/CD pipelines",
+      "Security best practices and vulnerability mitigation"
+    ],
+    "bio": "BS Artificial Intelligence student at FAST National University of Computer & Emerging Sciences passionate about Mobile App Development (Flutter / Android / iOS). Built 1 major technical projects using Kotlin, Android SDK, Jetpack Compose, Coroutines."
+  },
+  {
+    "id": "INT-057",
+    "name": "Taha Qureshi",
+    "track": "AI & Machine Learning",
+    "email": "taha.qureshi.57@internship.edu.pk",
+    "university": "Information Technology University (ITU) Lahore",
+    "degree": "BS Computer Science",
+    "gpa": 3.32,
+    "graduation_year": 2026,
+    "technical_skills": [
+      "Python",
+      "PyTorch",
+      "Scikit-Learn",
+      "OpenCV",
+      "Pandas",
+      "NumPy",
+      "TensorFlow",
+      "Transformers",
+      "FastAPI",
+      "REST APIs",
+      "Agile / Scrum"
+    ],
+    "experience_summary": "University Coding Club Lead with Hackathon 1st Place Winner experience",
+    "projects": [
+      {
+        "title": "Medical Imaging Pneumonia Detector with PyTorch",
+        "desc": "Fine-tuned ResNet-50 and Vision Transformer architectures on 5,800+ chest X-ray scans with 94.2% sensitivity and Grad-CAM explainability.",
+        "tech": [
+          "PyTorch",
+          "Torchvision",
+          "FastAPI",
+          "OpenCV",
+          "Docker"
+        ]
+      },
+      {
+        "title": "Real-time Autonomous Drone Navigation Simulator",
+        "desc": "Trained a Deep Q-Network (DQN) reinforcement learning agent in AirSim for obstacle avoidance in cluttered 3D environments.",
+        "tech": [
+          "Python",
+          "PyTorch",
+          "Gymnasium",
+          "NumPy",
+          "Matplotlib"
+        ]
+      }
+    ],
+    "strengths": [
+      "Rapid prototyping and self-directed problem solving",
+      "Eager to learn modern enterprise tech stacks",
+      "Passionate about scalable architecture and clean code"
+    ],
+    "areas_to_probe": [
+      "In-depth concurrency / memory management trade-offs",
+      "Test-Driven Development (TDD) coverage and CI/CD pipelines"
+    ],
+    "bio": "BS Computer Science student at Information Technology University (ITU) Lahore passionate about AI & Machine Learning. Built 2 major technical projects using Python, PyTorch, Scikit-Learn, OpenCV."
+  },
+  {
+    "id": "INT-058",
+    "name": "Sara Malik",
+    "track": "Data Science & Analytics",
+    "email": "sara.malik.58@internship.edu.pk",
+    "university": "Lahore University of Management Sciences (LUMS)",
+    "degree": "BS Computer Science",
+    "gpa": 3.53,
+    "graduation_year": 2024,
+    "technical_skills": [
+      "Python",
+      "PostgreSQL",
+      "Spark",
+      "PySpark",
+      "Data Pipelines",
+      "Snowflake",
+      "dbt",
+      "Data Modeling",
+      "Unit Testing",
+      "Linux"
+    ],
+    "experience_summary": "Self-Taught Passionate Engineer with active GitHub Portfolio (15+ Repos)",
+    "projects": [
+      {
+        "title": "Algorithmic Crypto Sentiment & Trading Backtester",
+        "desc": "Scraped 2M+ Reddit and Twitter posts with VADER and RoBERTa NLP models to backtest sentiment-driven trading strategies.",
+        "tech": [
+          "Python",
+          "HuggingFace",
+          "Pandas",
+          "Statsmodels",
+          "Plotly",
+          "PostgreSQL"
+        ]
+      },
+      {
+        "title": "Customer Churn Prediction & Retention Dashboard",
+        "desc": "Built predictive XGBoost pipeline predicting telecom subscriber churn (ROC-AUC 0.89) with automated Tableau dashboard.",
+        "tech": [
+          "Python",
+          "Pandas",
+          "Scikit-Learn",
+          "XGBoost",
+          "Tableau",
+          "SQL"
+        ]
+      }
+    ],
+    "strengths": [
+      "Passionate about scalable architecture and clean code",
+      "Eager to learn modern enterprise tech stacks",
+      "Strong foundations in Data Science & Analytics"
+    ],
+    "areas_to_probe": [
+      "Security best practices and vulnerability mitigation",
+      "Test-Driven Development (TDD) coverage and CI/CD pipelines"
+    ],
+    "bio": "BS Computer Science student at Lahore University of Management Sciences (LUMS) passionate about Data Science & Analytics. Built 2 major technical projects using Python, PostgreSQL, Spark, PySpark."
+  },
+  {
+    "id": "INT-059",
+    "name": "Ali Mirza",
+    "track": "Full-Stack Web Development",
+    "email": "ali.mirza.59@internship.edu.pk",
+    "university": "Lahore University of Management Sciences (LUMS)",
+    "degree": "BS Cyber Security",
+    "gpa": 3.57,
+    "graduation_year": 2024,
+    "technical_skills": [
+      "JavaScript",
+      "TypeScript",
+      "React.js",
+      "Node.js",
+      "Express.js",
+      "MongoDB",
+      "TailwindCSS",
+      "REST APIs",
+      "Git",
+      "Agile / Scrum"
+    ],
+    "experience_summary": "Final Year Student with 2 Hands-on Production Projects & Open Source Contributions",
+    "projects": [
+      {
+        "title": "E-Commerce Multi-Vendor Marketplace with Payment Gateways",
+        "desc": "Developed complete multi-tenant marketplace platform with Stripe checkout, inventory management, and Redis caching.",
+        "tech": [
+          "React",
+          "Express.js",
+          "MongoDB",
+          "Redis",
+          "Stripe API",
+          "AWS S3"
+        ]
+      },
+      {
+        "title": "FinTech Micro-Investment & Budgeting Web App",
+        "desc": "Engineered full-stack personal finance application with Plaid API integration, automated expense categorization, and JWT authentication.",
+        "tech": [
+          "Next.js",
+          "PostgreSQL",
+          "Prisma",
+          "TailwindCSS",
+          "Chart.js",
+          "Jest"
+        ]
+      }
+    ],
+    "strengths": [
+      "Clear technical communication and documentation",
+      "Eager to learn modern enterprise tech stacks",
+      "Passionate about scalable architecture and clean code"
+    ],
+    "areas_to_probe": [
+      "Security best practices and vulnerability mitigation",
+      "In-depth concurrency / memory management trade-offs"
+    ],
+    "bio": "BS Cyber Security student at Lahore University of Management Sciences (LUMS) passionate about Full-Stack Web Development. Built 2 major technical projects using JavaScript, TypeScript, React.js, Node.js."
+  },
+  {
+    "id": "INT-060",
+    "name": "Hassan Hussain",
+    "track": "Backend Engineering (Python / Java / Go)",
+    "email": "hassan.hussain.60@internship.edu.pk",
+    "university": "Information Technology University (ITU) Lahore",
+    "degree": "BS Artificial Intelligence",
+    "gpa": 3.43,
+    "graduation_year": 2026,
+    "technical_skills": [
+      "Java",
+      "Spring Boot",
+      "Hibernate",
+      "MySQL",
+      "Microservices",
+      "Kafka",
+      "Docker",
+      "JUnit",
+      "Agile / Scrum",
+      "REST APIs"
+    ],
+    "experience_summary": "University Coding Club Lead with Hackathon 1st Place Winner experience",
+    "projects": [
+      {
+        "title": "High-Throughput Asynchronous Task Processing Engine",
+        "desc": "Designed a distributed background task engine in Go with Redis queue backend handling 10,000 jobs/sec with graceful shutdown.",
+        "tech": [
+          "Go (Golang)",
+          "Redis",
+          "Docker",
+          "PostgreSQL",
+          "Prometheus"
+        ]
+      }
+    ],
+    "strengths": [
+      "Passionate about scalable architecture and clean code",
+      "Rapid prototyping and self-directed problem solving",
+      "Eager to learn modern enterprise tech stacks"
+    ],
+    "areas_to_probe": [
+      "In-depth concurrency / memory management trade-offs",
+      "Production debugging under high-load failure scenarios"
+    ],
+    "bio": "BS Artificial Intelligence student at Information Technology University (ITU) Lahore passionate about Backend Engineering (Python / Java / Go). Built 1 major technical projects using Java, Spring Boot, Hibernate, MySQL."
+  }
+]

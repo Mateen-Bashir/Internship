@@ -1,0 +1,151 @@
+{
+    "dataset_statistics": {
+        "total_job_postings": 550,
+        "total_intern_profiles": 160,
+        "total_training_courses": 50,
+        "industry_domains": [
+            {
+                "name": "Cybersecurity & Information Security",
+                "common_titles": [
+                    "Threat Intelligence Analyst",
+                    "Network Security Associate",
+                    "SOC Analyst"
+                ],
+                "top_keywords": [
+                    "network_security",
+                    "python scripting",
+                    "vulnerability",
+                    "security",
+                    "wireshark",
+                    "linux",
+                    "vulnerability assessment",
+                    "assessment",
+                    "tcpip_networking",
+                    "tcpip_networking firewalls"
+                ],
+                "total_jobs": 97
+            },
+            {
+                "name": "Mobile Application Development",
+                "common_titles": [
+                    "React Native Developer",
+                    "Cross-Platform Mobile Engineer",
+                    "iOS Developer (Swift)"
+                ],
+                "top_keywords": [
+                    "mobile",
+                    "native",
+                    "ui",
+                    "bloc",
+                    "flutter",
+                    "react native",
+                    "provider",
+                    "management provider",
+                    "provider bloc",
+                    "bloc redux"
+                ],
+                "total_jobs": 97
+            },
+            {
+                "name": "Cloud Computing & DevOps",
+                "common_titles": [
+                    "Cloud Infrastructure Analyst",
+                    "DevSecOps Associate",
+                    "Platform Engineer"
+                ],
+                "top_keywords": [
+                    "cloud",
+                    "infrastructure",
+                    "terraform",
+                    "cicd_pipelines pipelines",
+                    "kubernetes",
+                    "infrastructure code",
+                    "bash",
+                    "bash scripting",
+                    "networking basics",
+                    "networking"
+                ],
+                "total_jobs": 77
+            },
+            {
+                "name": "AI & Machine Learning",
+                "common_titles": [
+                    "LLM Applications Engineer",
+                    "NLP Engineer",
+                    "Machine Learning Engineer"
+                ],
+                "top_keywords": [
+                    "deep_learning",
+                    "nlp",
+                    "computer_vision",
+                    "transformers",
+                    "tensorflow",
+                    "pytorch",
+                    "numpy",
+                    "engineer",
+                    "linear algebra",
+                    "algebra"
+                ],
+                "total_jobs": 103
+            },
+            {
+                "name": "Full Stack & Web Development",
+                "common_titles": [
+                    "React / Node.js Developer",
+                    "Backend Developer",
+                    "Full Stack Developer"
+                ],
+                "top_keywords": [
+                    "css",
+                    "nodejs",
+                    "mongodb",
+                    "web",
+                    "postgresql",
+                    "react",
+                    "expressjs",
+                    "javascript",
+                    "html",
+                    "typescript"
+                ],
+                "total_jobs": 94
+            },
+            {
+                "name": "Data Science & Analytics",
+                "common_titles": [
+                    "Data Scientist",
+                    "Data Analyst",
+                    "Quantitative Analyst"
+                ],
+                "top_keywords": [
+                    "data",
+                    "hypothesis",
+                    "hypothesis testing",
+                    "statistical_modeling",
+                    "feature_engineering",
+                    "tableau",
+                    "sql",
+                    "powerbi",
+                    "matplotlib",
+                    "pandas"
+                ],
+                "total_jobs": 82
+            }
+        ]
+    },
+    "model_evaluation": {
+        "algorithm": "TF-IDF + K-Means Clustering",
+        "k_clusters": 6,
+        "average_silhouette_score": 0.205,
+        "max_features": 600,
+        "sublinear_tf": true
+    },
+    "cohort_skill_gap_metrics": {
+        "average_readiness_score": 41.36,
+        "average_cosine_similarity": 0.3669,
+        "severity_distribution": {
+            "High": 129,
+            "Moderate": 30,
+            "Low": 1
+        }
+    }
+}
